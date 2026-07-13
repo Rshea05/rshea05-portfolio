@@ -712,6 +712,116 @@ q,
   margin-top: 6px;
 }
 
+.enterprise-page {
+  width: min(1120px, 100%);
+}
+
+.system-principles,
+.toolchain-grid,
+.metric-strip {
+  display: grid;
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.system-principles {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.system-principles article,
+.toolchain-grid article,
+.metric-strip article {
+  padding: clamp(20px, 3vw, 28px);
+  background: var(--panel);
+}
+
+.system-principles h3,
+.toolchain-grid h3 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.system-principles p,
+.toolchain-grid p {
+  margin-top: 10px;
+}
+
+.governance-map {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.governance-map span,
+.governance-map strong {
+  display: grid;
+  min-height: 86px;
+  place-items: center;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--ink);
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.governance-map strong {
+  grid-column: span 1;
+  background: var(--soft);
+  color: var(--accent);
+  font-size: 1.08rem;
+}
+
+.enterprise-process span:nth-child(5),
+.discovery-framework span:nth-child(5) {
+  background: var(--soft);
+  color: var(--accent);
+}
+
+.discovery-framework {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.toolchain-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.toolchain-grid span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.metric-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.metric-strip strong {
+  display: block;
+  font-family: var(--display-serif);
+  font-size: clamp(2.6rem, 6vw, 4.8rem);
+  font-weight: 400;
+  line-height: 0.95;
+}
+
+.metric-strip span {
+  display: block;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .about-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -854,7 +964,11 @@ q,
   .project-snapshot,
   .insight-grid,
   .blueprint-evidence,
-  .blueprint-evidence.reverse {
+  .blueprint-evidence.reverse,
+  .system-principles,
+  .toolchain-grid,
+  .metric-strip,
+  .governance-map {
     grid-template-columns: 1fr;
   }
 
