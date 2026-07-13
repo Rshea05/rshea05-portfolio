@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StrideNode | Ryan Shea</title>
+    <meta name="description" content="StrideNode case study by Ryan Shea covering youth athletic development, wearable product strategy, coach dashboards, and privacy-first reporting.">
+    <link rel="stylesheet" href="../../css/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Ryan Shea / UX and product design</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/about">About</a>
+        <a href="/projects" aria-current="page">Projects</a>
+      </nav>
+    </header>
+
+    <main class="page detail-page">
+      <nav class="breadcrumb" aria-label="Project breadcrumb">
+        <a href="/projects/">Projects</a>
+      </nav>
+
+      <section class="detail-hero" aria-labelledby="case-title">
+        <p class="eyebrow">Product Strategy / Hardware Integration / UX Systems</p>
+        <h1 id="case-title">StrideNode</h1>
+        <p>A wearable practice system that makes invisible athletic development visible for youth soccer coaches, players, and families.</p>
+      </section>
+
+      <figure class="case-study-figure">
+        <img src="../../assets/stridenode-field.jpg" alt="Youth soccer players running practice drills on a field">
+      </figure>
+
+      <article class="case-study">
+        <section>
+          <h2>The Development Gap</h2>
+          <p>Youth players are often evaluated by what is easiest to see: size, straight-line speed, goals, and game statistics.</p>
+          <p>Long-term athletic potential depends on harder-to-measure skills like movement without the ball, flexibility, balance, spatial awareness, acceleration, deceleration, and the ability to change direction under control.</p>
+          <p>The opportunity was to make movement intelligence visible in repeatable, coachable ways. Not just who is fastest, but who moves better, adapts faster, and improves over time.</p>
+        </section>
+
+        <section>
+          <h2>The Product Concept</h2>
+          <p>StrideNode turns controlled agility drills into measurable development data.</p>
+          <p>Each player wears a compact reporter. A Raspberry Pi hub manages the practice session, receives results, and hosts the coach dashboard on a private local network.</p>
+          <ul>
+            <li>Player reporter captures path, speed, starts, stops, and turns through GPS and IMU data.</li>
+            <li>Practice hub manages device registration, sessions, local storage, and sync.</li>
+            <li>Coach dashboard turns sensor streams into decisions, trends, and reports.</li>
+          </ul>
+        </section>
+
+        <figure class="case-study-figure compact">
+          <img src="../../assets/stridenode-wearable.jpg" alt="Exploded wearable sensor concept on a dark background">
+        </figure>
+
+        <section>
+          <h2>System Architecture</h2>
+          <p>The system was designed for real practice fields where public internet may not be available. Reporters capture movement data, the Raspberry Pi hub stores and orchestrates sessions locally, and coach or parent views can sync later.</p>
+          <p>This local-first architecture supports device reliability, private data handling, and practice flow without making the coach depend on a fragile field connection.</p>
+          <ul>
+            <li>Wearable reporters combine XIAO Sense, GNSS, battery, and a 3D printed case.</li>
+            <li>The private Raspberry Pi hub handles registration, storage, and session orchestration.</li>
+            <li>Coach and family views translate movement data into progress stories.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>What StrideNode Measures</h2>
+          <p>The value is not GPS alone. The product combines position and motion data to describe how a player moves through space.</p>
+          <ul>
+            <li>Acceleration and time to usable speed.</li>
+            <li>Deceleration and control before a cut.</li>
+            <li>Change of direction and efficiency through turns.</li>
+            <li>Balance, agility, consistency, and progress over repeated drills.</li>
+          </ul>
+        </section>
+
+        <figure class="case-study-figure compact">
+          <img src="../../assets/stridenode-dashboard.jpg" alt="StrideNode mobile and desktop dashboard concepts">
+        </figure>
+
+        <section>
+          <h2>Coach Experience</h2>
+          <p>The mobile view was designed for practice flow, not desk work. A coach needs to know who is ready, which devices are connected, whether the drill captured valid data, and what to do next.</p>
+          <ul>
+            <li>Set up a session by creating a practice, choosing a drill, and assigning reporters.</li>
+            <li>Monitor readiness through battery, GPS lock, sensor status, and device connection.</li>
+            <li>Review attempt quality, personal progress, and coaching notes immediately after a drill.</li>
+          </ul>
+          <p>The desktop dashboard extends that view across the team, helping coaches compare readiness, leaderboard movement, performance trends, and device health.</p>
+        </section>
+
+        <section>
+          <h2>Progress Without Pressure</h2>
+          <p>The reporting layer is intentionally framed around growth, not public ranking.</p>
+          <p>Parents get a clearer view of how agility training is affecting their child's development while coaches keep context, privacy, and maturity differences in the interpretation.</p>
+          <ul>
+            <li>Baseline movement profile at the start of the season.</li>
+            <li>Trend reporting across repeated drills.</li>
+            <li>Coaching context with notes, goals, and recommended work.</li>
+            <li>Privacy-first handling with consent, limited retention, and no public live location.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>MVP Build Path</h2>
+          <p>The concept can be built in phases: prove capture, prove workflow, then prove insight.</p>
+          <ul>
+            <li>Build a reporter prototype with XIAO Sense, GNSS, battery, and an upper-back pod.</li>
+            <li>Use a Raspberry Pi as the practice hub for the private network, local database, and session dashboard.</li>
+            <li>Validate the coach workflow for assigning devices, running drills, and checking capture quality.</li>
+            <li>Translate repeated sessions into baseline comparisons, personal bests, drill trends, and family reports.</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

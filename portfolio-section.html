@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Shea | Work Portfolio</title>
+    <style>
+      :root {
+        --ink: #151515;
+        --muted: #5f646c;
+        --line: #d9dde2;
+        --paper: #fbfaf7;
+        --panel: #ffffff;
+        --accent: #1f6f68;
+        --accent-dark: #164c48;
+        --warm: #c66a3b;
+        --soft: #eef3f2;
+        --shadow: 0 18px 45px rgba(19, 29, 33, 0.08);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: "Source Sans Pro", "Muli", Arial, sans-serif;
+        line-height: 1.55;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 20px clamp(20px, 5vw, 64px);
+        border-bottom: 1px solid rgba(21, 21, 21, 0.08);
+        background: rgba(251, 250, 247, 0.94);
+        backdrop-filter: blur(12px);
+      }
+
+      .brand {
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 0.92rem;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 18px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .nav a {
+        text-decoration: none;
+      }
+
+      .nav a[aria-current="page"] {
+        color: var(--ink);
+      }
+
+      .portfolio {
+        padding: clamp(44px, 7vw, 88px) clamp(20px, 5vw, 64px);
+      }
+
+      .portfolio-inner {
+        max-width: 1120px;
+        margin: 0 auto;
+      }
+
+      .intro {
+        display: grid;
+        grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+        gap: clamp(28px, 6vw, 72px);
+        align-items: end;
+        margin-bottom: clamp(36px, 6vw, 72px);
+      }
+
+      .eyebrow {
+        margin: 0 0 10px;
+        color: var(--accent);
+        font-size: 0.82rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        font-family: Montserrat, Arial, sans-serif;
+        letter-spacing: 0;
+        line-height: 1.12;
+      }
+
+      h1 {
+        max-width: 780px;
+        font-size: clamp(2.35rem, 6vw, 5rem);
+      }
+
+      .intro-copy {
+        margin: 0;
+        color: var(--muted);
+        font-size: clamp(1.05rem, 2vw, 1.22rem);
+      }
+
+      .focus-strip {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1px;
+        overflow: hidden;
+        margin-bottom: clamp(44px, 7vw, 88px);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--line);
+      }
+
+      .focus-item {
+        min-height: 126px;
+        padding: 22px;
+        background: var(--panel);
+      }
+
+      .focus-item strong {
+        display: block;
+        margin-bottom: 8px;
+        font-family: Montserrat, Arial, sans-serif;
+        font-size: 1rem;
+      }
+
+      .focus-item span {
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      .section-title {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 24px;
+        margin-bottom: 24px;
+      }
+
+      .section-title h2 {
+        font-size: clamp(1.7rem, 4vw, 2.8rem);
+      }
+
+      .section-title p {
+        max-width: 430px;
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .case-list {
+        display: grid;
+        gap: 28px;
+      }
+
+      .case-card {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1fr);
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .case-link {
+        color: inherit;
+        text-decoration: none;
+        transition: transform 180ms ease, box-shadow 180ms ease;
+      }
+
+      .case-link:hover,
+      .case-link:focus-visible {
+        transform: translateY(-3px);
+        box-shadow: 0 22px 52px rgba(19, 29, 33, 0.12);
+      }
+
+      .case-link:focus-visible {
+        outline: 3px solid rgba(31, 111, 104, 0.35);
+        outline-offset: 4px;
+      }
+
+      .case-media {
+        position: relative;
+        overflow: hidden;
+        isolation: isolate;
+        min-height: 340px;
+        border-right: 1px solid var(--line);
+        background:
+          linear-gradient(135deg, rgba(31, 111, 104, 0.2), rgba(198, 106, 59, 0.12)),
+          var(--soft);
+      }
+
+      .case-media img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+      }
+
+      .case-media img.align-right {
+        object-position: right center;
+      }
+
+      .case-media img.zoom-in {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        object-fit: cover;
+        object-position: 48% 68%;
+        transform: scale(1.85);
+      }
+
+      .case-media.has-image::before,
+      .case-media.has-image::after,
+      .case-media.has-image .screen-lines {
+        display: none;
+      }
+
+      .case-media::before,
+      .case-media::after {
+        position: absolute;
+        content: "";
+        border: 1px solid rgba(21, 21, 21, 0.12);
+        background: rgba(255, 255, 255, 0.74);
+        box-shadow: 0 16px 35px rgba(22, 76, 72, 0.12);
+      }
+
+      .case-media::before {
+        inset: 56px 38px auto;
+        height: 156px;
+        border-radius: 8px;
+      }
+
+      .case-media::after {
+        right: 48px;
+        bottom: 46px;
+        width: 46%;
+        height: 118px;
+        border-radius: 8px;
+      }
+
+      .screen-lines {
+        position: absolute;
+        left: 58px;
+        right: 58px;
+        top: 86px;
+        z-index: 1;
+        display: grid;
+        gap: 12px;
+      }
+
+      .screen-lines span {
+        display: block;
+        height: 10px;
+        border-radius: 999px;
+        background: rgba(31, 111, 104, 0.2);
+      }
+
+      .screen-lines span:nth-child(2) {
+        width: 68%;
+      }
+
+      .screen-lines span:nth-child(3) {
+        width: 42%;
+        background: rgba(198, 106, 59, 0.28);
+      }
+
+      .case-content {
+        padding: clamp(24px, 4vw, 44px);
+      }
+
+      .case-kicker {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 18px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 4px 10px;
+        border: 1px solid rgba(31, 111, 104, 0.22);
+        border-radius: 999px;
+        color: var(--accent-dark);
+        background: rgba(31, 111, 104, 0.08);
+        font-size: 0.8rem;
+        font-weight: 700;
+      }
+
+      .case-content h3 {
+        margin-bottom: 12px;
+        font-size: clamp(1.55rem, 3vw, 2.3rem);
+      }
+
+      .case-summary {
+        margin: 0 0 24px;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .case-details {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+        margin: 0 0 28px;
+      }
+
+      .case-details dt {
+        margin-bottom: 6px;
+        color: var(--muted);
+        font-size: 0.78rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+
+      .case-details dd {
+        margin: 0;
+        font-weight: 700;
+      }
+
+      .case-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 10px 16px;
+        border: 1px solid var(--ink);
+        border-radius: 6px;
+        font-weight: 800;
+        text-decoration: none;
+      }
+
+      .button.primary {
+        border-color: var(--accent);
+        background: var(--accent);
+        color: #ffffff;
+      }
+
+      .button.secondary {
+        background: transparent;
+      }
+
+      .process {
+        display: grid;
+        grid-template-columns: 0.8fr 1.2fr;
+        gap: clamp(28px, 5vw, 64px);
+        margin-top: clamp(56px, 8vw, 96px);
+        padding-top: clamp(36px, 6vw, 72px);
+        border-top: 1px solid var(--line);
+      }
+
+      .process h2 {
+        font-size: clamp(1.7rem, 4vw, 2.8rem);
+      }
+
+      .process-steps {
+        display: grid;
+        gap: 18px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .process-steps li {
+        display: grid;
+        grid-template-columns: 44px minmax(0, 1fr);
+        gap: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .step-number {
+        display: grid;
+        width: 44px;
+        height: 44px;
+        place-items: center;
+        border-radius: 50%;
+        background: var(--warm);
+        color: #ffffff;
+        font-weight: 800;
+      }
+
+      .process-steps h3 {
+        margin-bottom: 6px;
+        font-size: 1.08rem;
+      }
+
+      .process-steps p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      @media (max-width: 860px) {
+        .site-header,
+        .intro,
+        .section-title,
+        .case-card,
+        .process {
+          display: block;
+        }
+
+        .nav {
+          margin-top: 14px;
+          justify-content: flex-start;
+        }
+
+        .intro-copy,
+        .section-title p {
+          margin-top: 18px;
+        }
+
+        .focus-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .case-media {
+          min-height: 250px;
+          border-right: 0;
+          border-bottom: 1px solid var(--line);
+        }
+
+        .process-steps {
+          margin-top: 24px;
+        }
+      }
+
+      @media (max-width: 560px) {
+        .portfolio {
+          padding-inline: 16px;
+        }
+
+        .focus-strip,
+        .case-details {
+          grid-template-columns: 1fr;
+        }
+
+        .case-details {
+          gap: 12px;
+        }
+
+        .case-media::before {
+          inset-inline: 24px;
+        }
+
+        .case-media::after {
+          right: 28px;
+          width: 54%;
+        }
+
+        .screen-lines {
+          left: 42px;
+          right: 42px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand">Ryan Shea's Portfolio</div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/">About Me</a>
+        <a href="/cv">CV</a>
+        <a href="/work-portfolio" aria-current="page">Work</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="portfolio">
+      <div class="portfolio-inner">
+        <section class="focus-strip" aria-label="Portfolio focus areas">
+          <div class="focus-item">
+            <strong>UX Strategy</strong>
+            <span>Discovery, prioritization, roadmap shaping, and product alignment.</span>
+          </div>
+          <div class="focus-item">
+            <strong>Design Systems</strong>
+            <span>Reusable patterns, governance, documentation, and adoption.</span>
+          </div>
+          <div class="focus-item">
+            <strong>Design Operations</strong>
+            <span>Process improvements that make quality repeatable across teams.</span>
+          </div>
+          <div class="focus-item">
+            <strong>AI Workflows</strong>
+            <span>Requirements and systems structured for faster concept-to-build cycles.</span>
+          </div>
+        </section>
+
+        <section aria-labelledby="case-studies-title">
+          <div class="section-title">
+            <h2 id="case-studies-title">Case Studies</h2>
+          </div>
+
+          <div class="case-list">
+            <a class="case-card case-link" href="https://rshea05.com/blog/f/jobs-to-be-done---white-paper" target="_top">
+              <div class="case-media has-image">
+                <img class="align-right" src="https://img1.wsimg.com/isteam/ip/8a0c2b43-f4a0-469f-9893-02402cb16869/Screenshot%202024-01-08%20at%206.09.55%20PM.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280" alt="Jobs to be Done research and product strategy visual">
+                <div class="screen-lines" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="case-content">
+                <div class="case-kicker">
+                  <span class="pill">Product Discovery</span>
+                  <span class="pill">JTBD</span>
+                </div>
+                <h3>Jobs to be Done</h3>
+                <p class="case-summary">Part of the FieldView Sustaining umbrella, this work examined how a fragmented platform experience affected roughly 30k customers and internal support teams during high-pressure planting and harvest seasons. The research helped clarify customer jobs, operational pain points, and the foundation needed to support better user outcomes and business growth.</p>
+                <dl class="case-details">
+                  <div>
+                    <dt>Role</dt>
+                    <dd>UX Research</dd>
+                  </div>
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Customer jobs</dd>
+                  </div>
+                  <div>
+                    <dt>Impact</dt>
+                    <dd>Platform clarity</dd>
+                  </div>
+                </dl>
+                <div class="case-actions">
+                  <span class="button primary">Open case study</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="case-card case-link" href="https://rshea05.com/blog/f/designing-a-decision-centric-agronomy-platform" target="_top">
+              <div class="case-media has-image">
+                <img src="https://img1.wsimg.com/isteam/ip/8a0c2b43-f4a0-469f-9893-02402cb16869/Frame%207.jpg/:/rs=w:900" alt="Agronomy platform dashboard interface">
+                <div class="screen-lines" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="case-content">
+                <div class="case-kicker">
+                  <span class="pill">Product Strategy</span>
+                  <span class="pill">Platform UX</span>
+                </div>
+                <h3>Designing a Decision-Centric Agronomy Platform</h3>
+                <p class="case-summary">A product design case study about organizing workflows, signals, and tools around the decisions users need to make.</p>
+                <dl class="case-details">
+                  <div>
+                    <dt>Role</dt>
+                    <dd>UX Strategist</dd>
+                  </div>
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Decision flows</dd>
+                  </div>
+                  <div>
+                    <dt>Impact</dt>
+                    <dd>Clearer action</dd>
+                  </div>
+                </dl>
+                <div class="case-actions">
+                  <span class="button primary">Open case study</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="case-card case-link" href="https://rshea05.com/blog/f/designops-case-study" target="_top">
+              <div class="case-media has-image">
+                <img src="https://img1.wsimg.com/isteam/ip/8a0c2b43-f4a0-469f-9893-02402cb16869/ChatGPT%20Image%20Jan%2017%2C%202026%2C%2004_49_09%20PM.png/:/rs=w:900" alt="Design operations collaboration illustration">
+                <div class="screen-lines" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="case-content">
+                <div class="case-kicker">
+                  <span class="pill">Design Ops</span>
+                  <span class="pill">Process</span>
+                </div>
+                <h3>DesignOps Case Study</h3>
+                <p class="case-summary">A look at improving the systems, rituals, and documentation that help product teams deliver consistent UX at scale.</p>
+                <dl class="case-details">
+                  <div>
+                    <dt>Role</dt>
+                    <dd>DesignOps Lead</dd>
+                  </div>
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Team systems</dd>
+                  </div>
+                  <div>
+                    <dt>Impact</dt>
+                    <dd>Repeatable quality</dd>
+                  </div>
+                </dl>
+                <div class="case-actions">
+                  <span class="button primary">Open case study</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="case-card case-link" href="https://rshea05.com/blog/f/service-blue-print" target="_top">
+              <div class="case-media has-image">
+                <img class="zoom-in" src="https://img1.wsimg.com/isteam/ip/8a0c2b43-f4a0-469f-9893-02402cb16869/Screenshot%202024-01-05%20at%2012.30.03%20AM.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280" alt="Service blueprint workflow and journey mapping visual">
+                <div class="screen-lines" aria-hidden="true">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="case-content">
+                <div class="case-kicker">
+                  <span class="pill">Service Design</span>
+                  <span class="pill">Blueprinting</span>
+                </div>
+                <h3>Service Blueprint</h3>
+                <p class="case-summary">A service design case study mapping the frontstage experience, backstage operations, and support systems needed to deliver a clearer end-to-end journey.</p>
+                <dl class="case-details">
+                  <div>
+                    <dt>Role</dt>
+                    <dd>Service Designer</dd>
+                  </div>
+                  <div>
+                    <dt>Focus</dt>
+                    <dd>Journey systems</dd>
+                  </div>
+                  <div>
+                    <dt>Impact</dt>
+                    <dd>Aligned delivery</dd>
+                  </div>
+                </dl>
+                <div class="case-actions">
+                  <span class="button primary">Open case study</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+
+        <section class="process" aria-labelledby="process-title">
+          <div>
+            <p class="eyebrow">How I Work</p>
+            <h2 id="process-title">A practical product design process, built for cross-functional teams.</h2>
+          </div>
+          <ol class="process-steps">
+            <li>
+              <span class="step-number">1</span>
+              <div>
+                <h3>Frame the problem</h3>
+                <p>Clarify user needs, business goals, constraints, and the decision points that matter.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">2</span>
+              <div>
+                <h3>Structure the work</h3>
+                <p>Translate ambiguity into flows, requirements, reusable patterns, and shared artifacts.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">3</span>
+              <div>
+                <h3>Align and iterate</h3>
+                <p>Partner with product and engineering to refine decisions and reduce delivery friction.</p>
+              </div>
+            </li>
+            <li>
+              <span class="step-number">4</span>
+              <div>
+                <h3>Ship repeatable quality</h3>
+                <p>Build systems and documentation that make the next product decision easier than the last.</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
