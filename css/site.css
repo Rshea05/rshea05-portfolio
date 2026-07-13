@@ -757,16 +757,47 @@ q,
 }
 
 .governance-map {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(104px, auto));
+  gap: 18px;
   margin-top: 22px;
+  padding: clamp(18px, 4vw, 36px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background:
+    radial-gradient(circle at center, rgba(238, 228, 212, 0.88) 0 16%, transparent 17%),
+    var(--chalk);
+}
+
+.governance-map::before,
+.governance-map::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+}
+
+.governance-map::before {
+  background:
+    linear-gradient(90deg, transparent 10%, rgba(166, 79, 43, 0.34) 10% 90%, transparent 90%) center / 100% 2px no-repeat,
+    linear-gradient(0deg, transparent 10%, rgba(166, 79, 43, 0.34) 10% 90%, transparent 90%) center / 2px 100% no-repeat;
+}
+
+.governance-map::after {
+  background:
+    linear-gradient(29deg, transparent 8%, rgba(166, 79, 43, 0.26) 8% 49.8%, transparent 50.2%) center / 100% 100% no-repeat,
+    linear-gradient(151deg, transparent 8%, rgba(166, 79, 43, 0.26) 8% 49.8%, transparent 50.2%) center / 100% 100% no-repeat;
 }
 
 .governance-map span,
 .governance-map strong {
+  position: relative;
+  z-index: 1;
   display: grid;
-  min-height: 86px;
+  min-height: 96px;
   place-items: center;
   padding: 16px;
   border: 1px solid var(--line);
@@ -780,20 +811,56 @@ q,
 }
 
 .governance-map strong {
-  grid-column: span 1;
+  grid-column: 3;
+  grid-row: 2;
   background: var(--soft);
   color: var(--accent);
-  font-size: 1.08rem;
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  box-shadow: 0 16px 40px rgba(25, 23, 19, 0.12);
 }
 
-.enterprise-process span:nth-child(5),
-.discovery-framework span:nth-child(5) {
+.governance-map .product {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.governance-map .engineering {
+  grid-column: 4 / span 2;
+  grid-row: 1;
+}
+
+.governance-map .accessibility {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.governance-map .brand {
+  grid-column: 5;
+  grid-row: 2;
+}
+
+.governance-map .champions {
+  grid-column: 1 / span 2;
+  grid-row: 3;
+}
+
+.governance-map .uxops {
+  grid-column: 4 / span 2;
+  grid-row: 3;
+}
+
+.governance-mobile-image {
+  display: none;
+  width: 100%;
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--chalk);
+}
+
+.enterprise-process span:nth-child(5) {
   background: var(--soft);
   color: var(--accent);
-}
-
-.discovery-framework {
-  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .toolchain-grid {
@@ -1106,6 +1173,14 @@ q,
 
   .process-ribbon {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .governance-map {
+    display: none;
+  }
+
+  .governance-mobile-image {
+    display: block;
   }
 
   .about-intro {
