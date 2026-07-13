@@ -1,2 +1,7 @@
 # Local Netlify folder
 .netlify
+
+# Local system and generated files
+.DS_Store
+**/.DS_Store
+outputs/
