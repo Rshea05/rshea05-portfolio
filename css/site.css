@@ -351,6 +351,12 @@ q,
   filter: saturate(0.86);
 }
 
+.showcase-card img.contain-image {
+  padding: 18px;
+  background: var(--chalk);
+  object-fit: contain;
+}
+
 .showcase-body {
   padding: clamp(22px, 4vw, 34px);
 }
@@ -820,6 +826,127 @@ q,
   margin-top: 12px;
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.artifact-section {
+  gap: clamp(22px, 4vw, 34px);
+}
+
+.system-artifact {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--chalk);
+  box-shadow: 0 18px 45px rgba(25, 23, 19, 0.08);
+}
+
+.system-artifact img {
+  max-height: none;
+  object-fit: contain;
+  border: 0;
+  border-radius: 6px;
+}
+
+.system-artifact figcaption {
+  margin: 12px 4px 2px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.collaboration-artifact {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--chalk);
+  box-shadow: 0 18px 45px rgba(25, 23, 19, 0.08);
+}
+
+.whiteboard-visual {
+  position: relative;
+  min-height: clamp(300px, 44vw, 500px);
+  overflow: hidden;
+  border-radius: 6px;
+  background:
+    linear-gradient(90deg, rgba(216, 202, 183, 0.34) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(216, 202, 183, 0.3) 1px, transparent 1px),
+    #fffdf7;
+  background-size: 72px 72px;
+}
+
+.whiteboard-visual::before {
+  position: absolute;
+  inset: 22px;
+  border: 2px dashed rgba(70, 91, 61, 0.2);
+  border-radius: 14px;
+  content: "";
+}
+
+.whiteboard-visual i {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: clamp(70px, 10vw, 120px);
+  height: clamp(58px, 8vw, 92px);
+  border: 1px solid rgba(25, 23, 19, 0.08);
+  border-radius: 4px;
+  background: var(--c);
+  box-shadow: 0 10px 22px rgba(25, 23, 19, 0.08);
+  transform: rotate(var(--r));
+}
+
+.whiteboard-visual i::before,
+.whiteboard-visual i::after {
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  height: 6px;
+  border-radius: 999px;
+  background: rgba(25, 23, 19, 0.12);
+  content: "";
+}
+
+.whiteboard-visual i::before {
+  top: 18px;
+}
+
+.whiteboard-visual i::after {
+  top: 34px;
+  right: 32px;
+}
+
+.board-line {
+  position: absolute;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(166, 79, 43, 0.35);
+  transform-origin: left center;
+}
+
+.line-a {
+  left: 17%;
+  top: 36%;
+  width: 58%;
+  transform: rotate(3deg);
+}
+
+.line-b {
+  left: 26%;
+  top: 64%;
+  width: 50%;
+  transform: rotate(-4deg);
+}
+
+.line-c {
+  left: 58%;
+  top: 24%;
+  width: 24%;
+  transform: rotate(37deg);
+}
+
+.collaboration-artifact figcaption {
+  margin: 12px 4px 2px;
+  color: var(--muted);
+  font-size: 0.92rem;
 }
 
 .about-list {
