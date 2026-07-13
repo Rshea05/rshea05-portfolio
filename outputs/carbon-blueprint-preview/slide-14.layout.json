@@ -1,0 +1,773 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/brmdsc",
+    "id": "brmdsc",
+    "slide": 14,
+    "layoutId": "ccedb88d-72fc-4f26-97bb-f0d21c72dede",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ccedb88d-72fc-4f26-97bb-f0d21c72dede",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "1",
+      "bbox": [
+        42,
+        46,
+        900,
+        96
+      ],
+      "geometry": "rect",
+      "text": "The work gave the organization a foundation for service improvement",
+      "textPreview": "The work gave the organization a foundation for service improvement",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The work gave the organization a foundation"
+          },
+          {
+            "index": 2,
+            "text": "for service improvement"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The work gave the organization a foundation for service improvement",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The work gave the organization a foundation for service improvement",
+              "fontSize": 44,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "2",
+      "bbox": [
+        42,
+        144,
+        920,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Even without a single product release metric, the service blueprint created practical alignment and exposed where improvements should start.",
+      "textPreview": "Even without a single product release metric, the service blueprint created practical alignment and exposed where improvements should start.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Even without a single product release metric, the service blueprint created practical alignment and"
+          },
+          {
+            "index": 2,
+            "text": "exposed where improvements should start."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Even without a single product release metric, the service blueprint created practical alignment and exposed where improvements should start.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#756F64"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Even without a single product release metric, the service blueprint created practical alignment and exposed where improvements should start.",
+              "fontSize": 20,
+              "color": "#756F64"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "3",
+      "bbox": [
+        42,
+        656,
+        1196,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D8CAB7",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "4",
+      "bbox": [
+        42,
+        674,
+        360,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Carbon Program Service Blueprint",
+      "textPreview": "Carbon Program Service Blueprint",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Carbon Program Service Blueprint"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Carbon Program Service Blueprint",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#756F64",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Carbon Program Service Blueprint",
+              "fontSize": 13,
+              "color": "#756F64",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "5",
+      "bbox": [
+        1198,
+        674,
+        40,
+        22
+      ],
+      "geometry": "rect",
+      "text": "14",
+      "textPreview": "14",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "14"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "14",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#756F64",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "14",
+              "fontSize": 13,
+              "color": "#756F64",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "6",
+      "bbox": [
+        130,
+        226,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#A64F2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "7",
+      "bbox": [
+        154,
+        218,
+        876,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Created the organization's first end-to-end service blueprint",
+      "textPreview": "Created the organization's first end-to-end service blueprint",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Created the organization's first end-to-end service blueprint"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Created the organization's first end-to-end service blueprint",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Created the organization's first end-to-end service blueprint",
+              "fontSize": 23,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25kb6xkf",
+      "id": "8",
+      "bbox": [
+        130,
+        274,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#A64F2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rqd4vmtw",
+      "id": "9",
+      "bbox": [
+        154,
+        266,
+        876,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Aligned business units around one shared customer journey",
+      "textPreview": "Aligned business units around one shared customer journey",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Aligned business units around one shared customer journey"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Aligned business units around one shared customer journey",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Aligned business units around one shared customer journey",
+              "fontSize": 23,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jm1cfa9w",
+      "id": "10",
+      "bbox": [
+        130,
+        322,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#A64F2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u18jqh0f",
+      "id": "11",
+      "bbox": [
+        154,
+        314,
+        876,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Revealed duplicated operational work",
+      "textPreview": "Revealed duplicated operational work",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Revealed duplicated operational work"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Revealed duplicated operational work",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Revealed duplicated operational work",
+              "fontSize": 23,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1orytsvu",
+      "id": "12",
+      "bbox": [
+        130,
+        370,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#A64F2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c7u54zid",
+      "id": "13",
+      "bbox": [
+        154,
+        362,
+        876,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Identified automation opportunities",
+      "textPreview": "Identified automation opportunities",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Identified automation opportunities"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Identified automation opportunities",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Identified automation opportunities",
+              "fontSize": 23,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/judg7ads",
+      "id": "14",
+      "bbox": [
+        130,
+        418,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#A64F2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9knih4b",
+      "id": "15",
+      "bbox": [
+        154,
+        410,
+        876,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Improved visibility into cross-functional dependencies",
+      "textPreview": "Improved visibility into cross-functional dependencies",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Improved visibility into cross-functional dependencies"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Improved visibility into cross-functional dependencies",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Improved visibility into cross-functional dependencies",
+              "fontSize": 23,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1032lszq",
+      "id": "16",
+      "bbox": [
+        130,
+        466,
+        8,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#A64F2B",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cfa9w3m9",
+      "id": "17",
+      "bbox": [
+        154,
+        458,
+        876,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Established a foundation for future service improvements",
+      "textPreview": "Established a foundation for future service improvements",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Established a foundation for future service improvements"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Established a foundation for future service improvements",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Established a foundation for future service improvements",
+              "fontSize": 23,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

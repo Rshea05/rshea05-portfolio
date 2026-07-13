@@ -1,0 +1,548 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2e4fp2",
+    "id": "2e4fp2",
+    "slide": 15,
+    "layoutId": "ccedb88d-72fc-4f26-97bb-f0d21c72dede",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ccedb88d-72fc-4f26-97bb-f0d21c72dede",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4vmtwra",
+      "id": "1",
+      "bbox": [
+        42,
+        58,
+        440,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Portfolio takeaway",
+      "textPreview": "Portfolio takeaway",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#A64F2B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Portfolio takeaway"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Portfolio takeaway",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#A64F2B",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Portfolio takeaway",
+              "fontSize": 24,
+              "color": "#A64F2B",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6dcbulwv",
+      "id": "2",
+      "bbox": [
+        42,
+        150,
+        970,
+        190
+      ],
+      "geometry": "rect",
+      "text": "This was not only a map of a service. It was a shared operating model for teams that had been optimizing separate pieces of one customer journey.",
+      "textPreview": "This was not only a map of a service. It was a shared operating model for teams that had been optimizing separate pieces of one customer ...",
+      "resolvedFontSize": 47,
+      "resolvedTextStyle": {
+        "fontSize": 47,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "This was not only a map of a service. It was"
+          },
+          {
+            "index": 2,
+            "text": "a shared operating model for teams that had"
+          },
+          {
+            "index": 3,
+            "text": "been optimizing separate pieces of one"
+          },
+          {
+            "index": 4,
+            "text": "customer journey."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "This was not only a map of a service. It was a shared operating model for teams that had been optimizing separate pieces of one customer journey.",
+          "resolvedTextStyle": {
+            "fontSize": 47,
+            "color": "#191713",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "This was not only a map of a service. It was a shared operating model for teams that had been optimizing separate pieces of one customer journey.",
+              "fontSize": 47,
+              "color": "#191713",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vy90je9c",
+      "id": "3",
+      "bbox": [
+        42,
+        462,
+        820,
+        70
+      ],
+      "geometry": "rect",
+      "text": "The case study demonstrates service design, systems thinking, research synthesis, facilitation, and the ability to make enterprise complexity usable.",
+      "textPreview": "The case study demonstrates service design, systems thinking, research synthesis, facilitation, and the ability to make enterprise comple...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The case study demonstrates service design, systems thinking, research"
+          },
+          {
+            "index": 2,
+            "text": "synthesis, facilitation, and the ability to make enterprise complexity"
+          },
+          {
+            "index": 3,
+            "text": "usable."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The case study demonstrates service design, systems thinking, research synthesis, facilitation, and the ability to make enterprise complexity usable.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#756F64"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The case study demonstrates service design, systems thinking, research synthesis, facilitation, and the ability to make enterprise complexity usable.",
+              "fontSize": 24,
+              "color": "#756F64"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "4",
+      "bbox": [
+        1008,
+        94,
+        160,
+        160
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEE4D4",
+      "lineColor": "#A64F2B",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "5",
+      "bbox": [
+        1032,
+        122,
+        112,
+        70
+      ],
+      "geometry": "rect",
+      "text": "15",
+      "textPreview": "15",
+      "resolvedFontSize": 62,
+      "resolvedTextStyle": {
+        "fontSize": 62,
+        "typeface": "+mn-lt",
+        "color": "#A64F2B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "15",
+          "resolvedTextStyle": {
+            "fontSize": 62,
+            "color": "#A64F2B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "15",
+              "fontSize": 62,
+              "color": "#A64F2B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/61032lsz",
+      "id": "6",
+      "bbox": [
+        1032,
+        202,
+        112,
+        30
+      ],
+      "geometry": "rect",
+      "text": "slides",
+      "textPreview": "slides",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#A64F2B",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "slides"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "slides",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#A64F2B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "slides",
+              "fontSize": 20,
+              "color": "#A64F2B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmtwra5g",
+      "id": "7",
+      "bbox": [
+        42,
+        656,
+        1196,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D8CAB7",
+      "lineWidth": 1
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "8",
+      "bbox": [
+        42,
+        674,
+        360,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Carbon Program Service Blueprint",
+      "textPreview": "Carbon Program Service Blueprint",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Carbon Program Service Blueprint"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Carbon Program Service Blueprint",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#756F64",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Carbon Program Service Blueprint",
+              "fontSize": 13,
+              "color": "#756F64",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "9",
+      "bbox": [
+        1198,
+        674,
+        40,
+        22
+      ],
+      "geometry": "rect",
+      "text": "15",
+      "textPreview": "15",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "15"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "15",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#756F64",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "15",
+              "fontSize": 13,
+              "color": "#756F64",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

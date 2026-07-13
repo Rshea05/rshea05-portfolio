@@ -1,0 +1,240 @@
+{"kind":"deck","id":"pr/lz2tm0","name":"Deck"}
+{"kind":"layout","layoutId":"d500a6ea-b832-46be-9314-27bc2b86c32a","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"ccedb88d-72fc-4f26-97bb-f0d21c72dede","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/7i9555","slide":1,"title":"Carbon Program","textShapes":9}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":1,"text":"Carbon Program\nService Blueprint","textPreview":"Carbon Program | Service Blueprint","textChars":32,"textLines":2,"bbox":[42,62,700,160]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":1,"text":"Mapping a multi-year enterprise service across growers, dealers, field teams, operations, finance, and digital platforms.","textPreview":"Mapping a multi-year enterprise service across growers, dealers, field teams, operations, finance, and digital platforms.","textChars":121,"textLines":1,"bbox":[42,250,640,88]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":1,"bbox":[782,54,456,540]}
+{"kind":"shape","id":"sh/j6tovaho","slide":1,"bbox":[820,110,156,64]}
+{"kind":"textbox","id":"sh/ulwval87","slide":1,"text":"Grower","textPreview":"Grower","textChars":6,"textLines":1,"bbox":[834,130,128,26]}
+{"kind":"shape","id":"sh/1cfa9w3m","slide":1,"bbox":[1018,110,156,64]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":1,"text":"Dealer","textPreview":"Dealer","textChars":6,"textLines":1,"bbox":[1032,130,128,26]}
+{"kind":"shape","id":"sh/j2t83itg","slide":1,"bbox":[820,228,156,64]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":1,"text":"Field team","textPreview":"Field team","textChars":10,"textLines":1,"bbox":[834,248,128,26]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":1,"bbox":[1018,228,156,64]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":1,"text":"Operations","textPreview":"Operations","textChars":10,"textLines":1,"bbox":[1032,248,128,26]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":1,"bbox":[820,346,156,64]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":1,"text":"Finance","textPreview":"Finance","textChars":7,"textLines":1,"bbox":[834,366,128,26]}
+{"kind":"shape","id":"sh/svu9knih","slide":1,"bbox":[1018,346,156,64]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":1,"text":"Digital systems","textPreview":"Digital systems","textChars":15,"textLines":1,"bbox":[1032,366,128,26]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":1,"text":"Senior UX Designer | Service Design | UX Research | Systems Thinking","textPreview":"Senior UX Designer | Service Design | UX Research | Systems Thinking","textChars":68,"textLines":1,"bbox":[42,606,720,28]}
+{"kind":"notes","id":"nt/7i9555","slide":1,"text":""}
+{"kind":"slide","id":"sl/y5s554","slide":2,"title":"The program had many owners, but no shared view","textShapes":11}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":2,"text":"The program had many owners, but no shared view","textPreview":"The program had many owners, but no shared view","textChars":47,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":2,"text":"Each function understood its own work. No one could see the full customer journey across a process lasting more than a year.","textPreview":"Each function understood its own work. No one could see the full customer journey across a process lasting more than a year.","textChars":124,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":2,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":2,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/83itgfml","slide":2,"bbox":[84,246,8,8]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":2,"text":"Duplicated work across teams","textPreview":"Duplicated work across teams","textChars":28,"textLines":1,"bbox":[108,238,496,34]}
+{"kind":"shape","id":"sh/mtwra5gb","slide":2,"bbox":[84,298,8,8]}
+{"kind":"textbox","id":"sh/fepkzupw","slide":2,"text":"Disconnected systems and handoffs","textPreview":"Disconnected systems and handoffs","textChars":33,"textLines":1,"bbox":[108,290,496,34]}
+{"kind":"shape","id":"sh/7adsji5s","slide":2,"bbox":[84,350,8,8]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":2,"text":"Inconsistent grower communication","textPreview":"Inconsistent grower communication","textChars":33,"textLines":1,"bbox":[108,342,496,34]}
+{"kind":"shape","id":"sh/pg3ex0nu","slide":2,"bbox":[84,402,8,8]}
+{"kind":"textbox","id":"sh/wval87ed","slide":2,"text":"Unclear ownership at key moments","textPreview":"Unclear ownership at key moments","textChars":32,"textLines":1,"bbox":[108,394,496,34]}
+{"kind":"shape","id":"sh/7mp0bi9s","slide":2,"bbox":[84,454,8,8]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":2,"text":"Poor visibility into customer progress","textPreview":"Poor visibility into customer progress","textChars":38,"textLines":1,"bbox":[108,446,496,34]}
+{"kind":"shape","id":"sh/psfil0rq","slide":2,"bbox":[724,224,424,270]}
+{"kind":"textbox","id":"sh/w7mp0bi9","slide":2,"text":"Core problem","textPreview":"Core problem","textChars":12,"textLines":1,"bbox":[756,254,220,26]}
+{"kind":"textbox","id":"sh/7u54zido","slide":2,"text":"The experience looked like enrollment to customers, but operated like a long-running service ecosystem behind the scenes.","textPreview":"The experience looked like enrollment to customers, but operated like a long-running service ecosystem behind the scenes.","textChars":121,"textLines":1,"bbox":[756,302,340,120]}
+{"kind":"notes","id":"nt/y5s554","slide":2,"text":""}
+{"kind":"slide","id":"sl/qb3lp2","slide":3,"title":"The goal was a single source of truth for the service","textShapes":12}
+{"kind":"textbox","id":"sh/gvy90je9","slide":3,"text":"The goal was a single source of truth for the service","textPreview":"The goal was a single source of truth for the service","textChars":53,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"text":"The blueprint needed to document the visible journey and the hidden operational work that made it possible.","textPreview":"The blueprint needed to document the visible journey and the hidden operational work that made it possible.","textChars":107,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/2p8nqxs7","slide":3,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":3,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":3,"bbox":[64,240,250,178]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":3,"text":"Customer","textPreview":"Customer","textChars":8,"textLines":1,"bbox":[82,258,214,30]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":3,"text":"Understand every touchpoint and expectation.","textPreview":"Understand every touchpoint and expectation.","textChars":44,"textLines":1,"bbox":[82,298,214,108]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":3,"bbox":[356,240,250,178]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":3,"text":"Operations","textPreview":"Operations","textChars":10,"textLines":1,"bbox":[374,258,214,30]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":3,"text":"Reveal hidden work, ownership gaps, and handoffs.","textPreview":"Reveal hidden work, ownership gaps, and handoffs.","textChars":49,"textLines":1,"bbox":[374,298,214,108]}
+{"kind":"shape","id":"sh/gvy90je9","slide":3,"bbox":[648,240,250,178]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":3,"text":"Systems","textPreview":"Systems","textChars":7,"textLines":1,"bbox":[666,258,214,30]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":3,"text":"Map dependencies across CRM, DMP, automation, and payment tools.","textPreview":"Map dependencies across CRM, DMP, automation, and payment tools.","textChars":64,"textLines":1,"bbox":[666,298,214,108]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":3,"bbox":[940,240,250,178]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":3,"text":"Alignment","textPreview":"Alignment","textChars":9,"textLines":1,"bbox":[958,258,214,30]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":3,"text":"Create a shared foundation for process improvements.","textPreview":"Create a shared foundation for process improvements.","textChars":52,"textLines":1,"bbox":[958,298,214,108]}
+{"kind":"notes","id":"nt/qb3lp2","slide":3,"text":""}
+{"kind":"slide","id":"sl/3xbob7","slide":4,"title":"My role covered research, facilitation, synthesis, and leadership alignment","textShapes":12}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":4,"text":"My role covered research, facilitation, synthesis, and leadership alignment","textPreview":"My role covered research, facilitation, synthesis, and leadership alignment","textChars":75,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":4,"text":"I worked with two additional UX designers across three design sprints.","textPreview":"I worked with two additional UX designers across three design sprints.","textChars":70,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/9knih4by","slide":4,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":4,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":4,"bbox":[70,244,8,8]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":4,"text":"Planned research activities","textPreview":"Planned research activities","textChars":27,"textLines":1,"bbox":[94,236,456,34]}
+{"kind":"shape","id":"sh/2hwfyxob","slide":4,"bbox":[70,294,8,8]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":4,"text":"Interviewed stakeholders across business units","textPreview":"Interviewed stakeholders across business units","textChars":46,"textLines":1,"bbox":[94,286,456,34]}
+{"kind":"shape","id":"sh/7ed8bat4","slide":4,"bbox":[70,344,8,8]}
+{"kind":"textbox","id":"sh/itgfmlkj","slide":4,"text":"Facilitated service blueprint workshops","textPreview":"Facilitated service blueprint workshops","textChars":39,"textLines":1,"bbox":[94,336,456,34]}
+{"kind":"shape","id":"sh/pkzupwb2","slide":4,"bbox":[70,394,8,8]}
+{"kind":"textbox","id":"sh/0z61032l","slide":4,"text":"Mapped frontstage and backstage processes","textPreview":"Mapped frontstage and backstage processes","textChars":41,"textLines":1,"bbox":[94,386,456,34]}
+{"kind":"shape","id":"sh/72x4nap4","slide":4,"bbox":[690,244,8,8]}
+{"kind":"textbox","id":"sh/ih4byhgn","slide":4,"text":"Identified system dependencies","textPreview":"Identified system dependencies","textChars":30,"textLines":1,"bbox":[714,236,456,34]}
+{"kind":"shape","id":"sh/p8nqxs72","slide":4,"bbox":[690,294,8,8]}
+{"kind":"textbox","id":"sh/0nuxc3yl","slide":4,"text":"Synthesized operational pain points","textPreview":"Synthesized operational pain points","textChars":35,"textLines":1,"bbox":[714,286,456,34]}
+{"kind":"shape","id":"sh/7y1kre1w","slide":4,"bbox":[690,344,8,8]}
+{"kind":"textbox","id":"sh/ed8v6psf","slide":4,"text":"Validated findings with teams","textPreview":"Validated findings with teams","textChars":29,"textLines":1,"bbox":[714,336,456,34]}
+{"kind":"shape","id":"sh/mlkjm1cf","slide":4,"bbox":[690,394,8,8]}
+{"kind":"textbox","id":"sh/f6dcbulw","slide":4,"text":"Presented recommendations to leadership","textPreview":"Presented recommendations to leadership","textChars":39,"textLines":1,"bbox":[714,386,456,34]}
+{"kind":"notes","id":"nt/3xbob7","slide":4,"text":""}
+{"kind":"slide","id":"sl/w9jzcy","slide":5,"title":"Discovery moved from individual views to a validated service map","textShapes":12}
+{"kind":"textbox","id":"sh/2t83itgf","slide":5,"text":"Discovery moved from individual views to a validated service map","textPreview":"Discovery moved from individual views to a validated service map","textChars":64,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/9knih4by","slide":5,"text":"The work combined interviews, synthesis, blueprinting, and review cycles with the teams responsible for the service.","textPreview":"The work combined interviews, synthesis, blueprinting, and review cycles with the teams responsible for the service.","textChars":116,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":5,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":5,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":5,"bbox":[58,280,134,84]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":5,"text":"Research","textPreview":"Research","textChars":8,"textLines":1,"bbox":[70,302,110,42]}
+{"kind":"shape","id":"sh/r2p8nqxs","slide":5,"bbox":[229,280,134,84]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":5,"text":"Stakeholder\ninterviews","textPreview":"Stakeholder | interviews","textChars":22,"textLines":2,"bbox":[241,302,110,42]}
+{"kind":"shape","id":"sh/crmhk3q5","slide":5,"bbox":[400,280,134,84]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":5,"text":"Journey\nmapping","textPreview":"Journey | mapping","textChars":15,"textLines":2,"bbox":[412,302,110,42]}
+{"kind":"shape","id":"sh/ulwval87","slide":5,"bbox":[571,280,134,84]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":5,"text":"Affinity\nmapping","textPreview":"Affinity | mapping","textChars":16,"textLines":2,"bbox":[583,302,110,42]}
+{"kind":"shape","id":"sh/c3ylc7u5","slide":5,"bbox":[742,280,134,84]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":5,"text":"Blueprint\ncreation","textPreview":"Blueprint | creation","textChars":18,"textLines":2,"bbox":[754,302,110,42]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":5,"bbox":[913,280,134,84]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":5,"text":"Validation\nworkshops","textPreview":"Validation | workshops","textChars":20,"textLines":2,"bbox":[925,302,110,42]}
+{"kind":"shape","id":"sh/8bat47y1","slide":5,"bbox":[1084,280,134,84]}
+{"kind":"textbox","id":"sh/1w7mp0bi","slide":5,"text":"Leadership\nreviews","textPreview":"Leadership | reviews","textChars":18,"textLines":2,"bbox":[1096,302,110,42]}
+{"kind":"shape","id":"sh/1orytsvu","slide":5,"bbox":[192,322,37,0]}
+{"kind":"shape","id":"sh/c7u54zid","slide":5,"bbox":[363,322,37,0]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":5,"bbox":[534,322,37,0]}
+{"kind":"shape","id":"sh/u18jqh0f","slide":5,"bbox":[705,322,37,0]}
+{"kind":"shape","id":"sh/1032lszq","slide":5,"bbox":[876,322,37,0]}
+{"kind":"shape","id":"sh/cfa9w3m9","slide":5,"bbox":[1047,322,37,0]}
+{"kind":"textbox","id":"sh/judg7ads","slide":5,"text":"Participants included growers, dealers, field representatives, operations, finance, product, customer support, and leadership.","textPreview":"Participants included growers, dealers, field representatives, operations, finance, product, customer support, and leadership.","textChars":126,"textLines":1,"bbox":[120,476,1040,52]}
+{"kind":"notes","id":"nt/w9jzcy","slide":5,"text":""}
+{"kind":"slide","id":"sl/kbxelq","slide":6,"title":"The blueprint made the whole service visible at once","textShapes":4}
+{"kind":"textbox","id":"sh/xs72x4na","slide":6,"text":"The blueprint made the whole service visible at once","textPreview":"The blueprint made the whole service visible at once","textChars":52,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":6,"text":"It captured customer-facing moments, internal work, systems, handoffs, waits, and decision points across the full program lifecycle.","textPreview":"It captured customer-facing moments, internal work, systems, handoffs, waits, and decision points across the full program lifecycle.","textChars":132,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/fmlkjm1c","slide":6,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":6,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":6,"bbox":[58,212,1164,394]}
+{"kind":"image","id":"im/ahoza1gv","slide":6,"name":"","alt":"Current state service blueprint overview","bbox":[68,222,1144,374]}
+{"kind":"notes","id":"nt/kbxelq","slide":6,"text":""}
+{"kind":"slide","id":"sl/l4ypnx","slide":7,"title":"Two entry paths created different expectations before converging","textShapes":4}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":7,"text":"Two entry paths created different expectations before converging","textPreview":"Two entry paths created different expectations before converging","textChars":64,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":7,"text":"Self-guided discovery and advisor-led discovery introduced different expectations before the journey moved into the same enrollment workflow.","textPreview":"Self-guided discovery and advisor-led discovery introduced different expectations before the journey moved into the same enrollment workf...","textChars":141,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/94fu18jq","slide":7,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":7,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/gvy90je9","slide":7,"bbox":[64,204,1152,402]}
+{"kind":"image","id":"im/sji5snel","slide":7,"name":"","alt":"Service blueprint discovery paths","bbox":[74,214,1132,382]}
+{"kind":"notes","id":"nt/l4ypnx","slide":7,"text":""}
+{"kind":"slide","id":"sl/boytey","slide":8,"title":"Enrollment revealed how quickly digital steps became operational work","textShapes":4}
+{"kind":"textbox","id":"sh/y90je9cv","slide":8,"text":"Enrollment revealed how quickly digital steps became operational work","textPreview":"Enrollment revealed how quickly digital steps became operational work","textChars":69,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":8,"text":"Account creation, contract signing, FieldView setup, and DMP updates created a chain of visible and invisible work.","textPreview":"Account creation, contract signing, FieldView setup, and DMP updates created a chain of visible and invisible work.","textChars":115,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/gbq1oryt","slide":8,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":8,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/58z25kb6","slide":8,"bbox":[56,204,1168,402]}
+{"kind":"image","id":"im/9knih4by","slide":8,"name":"","alt":"Service blueprint enrollment workflow","bbox":[66,214,1148,382]}
+{"kind":"notes","id":"nt/boytey","slide":8,"text":""}
+{"kind":"slide","id":"sl/8hgw22","slide":9,"title":"Most of the service happened where customers could not see it","textShapes":16}
+{"kind":"textbox","id":"sh/sji5snel","slide":9,"text":"Most of the service happened where customers could not see it","textPreview":"Most of the service happened where customers could not see it","textChars":61,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/3ylc7u54","slide":9,"text":"The blueprint separated the simple external experience from the dense internal ecosystem required to deliver it.","textPreview":"The blueprint separated the simple external experience from the dense internal ecosystem required to deliver it.","textChars":112,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/adsji5sn","slide":9,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/lszqtcj6","slide":9,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"textbox","id":"sh/3m94fu18","slide":9,"text":"Customer sees","textPreview":"Customer sees","textChars":13,"textLines":1,"bbox":[104,214,420,34]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":9,"text":"Customer never sees","textPreview":"Customer never sees","textChars":19,"textLines":1,"bbox":[700,214,420,34]}
+{"kind":"shape","id":"sh/hoza1gvy","slide":9,"bbox":[94,276,380,52]}
+{"kind":"textbox","id":"sh/s36hcrmh","slide":9,"text":"Website","textPreview":"Website","textChars":7,"textLines":1,"bbox":[112,292,344,24]}
+{"kind":"shape","id":"sh/q1orytsv","slide":9,"bbox":[94,352,380,52]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":9,"text":"Emails","textPreview":"Emails","textChars":6,"textLines":1,"bbox":[112,368,344,24]}
+{"kind":"shape","id":"sh/87ed8bat","slide":9,"bbox":[94,428,380,52]}
+{"kind":"textbox","id":"sh/xs72x4na","slide":9,"text":"Enrollment","textPreview":"Enrollment","textChars":10,"textLines":1,"bbox":[112,444,344,24]}
+{"kind":"shape","id":"sh/qtcj6tov","slide":9,"bbox":[94,504,380,52]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":9,"text":"Payments","textPreview":"Payments","textChars":8,"textLines":1,"bbox":[112,520,344,24]}
+{"kind":"shape","id":"sh/8z25kb6x","slide":9,"bbox":[670,276,214,58]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":9,"text":"Marketing automation","textPreview":"Marketing automation","textChars":20,"textLines":1,"bbox":[688,292,178,30]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":9,"bbox":[914,276,214,58]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":9,"text":"CRM and DMP","textPreview":"CRM and DMP","textChars":11,"textLines":1,"bbox":[932,292,178,30]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":9,"bbox":[670,368,214,58]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":9,"text":"Verification","textPreview":"Verification","textChars":12,"textLines":1,"bbox":[688,384,178,30]}
+{"kind":"shape","id":"sh/9knih4by","slide":9,"bbox":[914,368,214,58]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":9,"text":"Operations approvals","textPreview":"Operations approvals","textChars":20,"textLines":1,"bbox":[932,384,178,30]}
+{"kind":"shape","id":"sh/rqd4vmtw","slide":9,"bbox":[670,460,214,58]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":9,"text":"Finance and legal","textPreview":"Finance and legal","textChars":17,"textLines":1,"bbox":[688,476,178,30]}
+{"kind":"shape","id":"sh/9w3m94fu","slide":9,"bbox":[914,460,214,58]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":9,"text":"Field scheduling","textPreview":"Field scheduling","textChars":16,"textLines":1,"bbox":[932,476,178,30]}
+{"kind":"notes","id":"nt/8hgw22","slide":9,"text":""}
+{"kind":"slide","id":"sl/lsym2i","slide":10,"title":"Waiting was often a seasonal dependency, not a broken experience","textShapes":4}
+{"kind":"textbox","id":"sh/wfyxobm5","slide":10,"text":"Waiting was often a seasonal dependency, not a broken experience","textPreview":"Waiting was often a seasonal dependency, not a broken experience","textChars":64,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/7u54zido","slide":10,"text":"Post-harvest and data collection steps showed why customer quiet periods could represent expected agricultural timing.","textPreview":"Post-harvest and data collection steps showed why customer quiet periods could represent expected agricultural timing.","textChars":118,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/ed8bat47","slide":10,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/lc7u54zi","slide":10,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/wra5gbq1","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/36hcrmhk","slide":10,"bbox":[64,204,1152,402]}
+{"kind":"image","id":"im/zqtcj6to","slide":10,"name":"","alt":"Service blueprint post-harvest and data collection workflow","bbox":[74,214,1132,382]}
+{"kind":"notes","id":"nt/lsym2i","slide":10,"text":""}
+{"kind":"slide","id":"sl/jlj1pw","slide":11,"title":"Decision points exposed the real workflow complexity","textShapes":4}
+{"kind":"textbox","id":"sh/4byhgn29","slide":11,"text":"Decision points exposed the real workflow complexity","textPreview":"Decision points exposed the real workflow complexity","textChars":52,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":11,"text":"Payment eligibility depended on approvals, verification outcomes, reconciliation loops, and re-review across teams.","textPreview":"Payment eligibility depended on approvals, verification outcomes, reconciliation loops, and re-review across teams.","textChars":115,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/m58z25kb","slide":11,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":11,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/b2hwfyxo","slide":11,"bbox":[76,204,1128,402]}
+{"kind":"image","id":"im/nap4r65w","slide":11,"name":"","alt":"Service blueprint payment and reconciliation workflow","bbox":[86,214,1108,382]}
+{"kind":"notes","id":"nt/jlj1pw","slide":11,"text":""}
+{"kind":"slide","id":"sl/e8qikf","slide":12,"title":"Verification connected back-office data to customer readiness","textShapes":4}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":12,"text":"Verification connected back-office data to customer readiness","textPreview":"Verification connected back-office data to customer readiness","textChars":61,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":12,"text":"Data review, soil collection, payout readiness, and missing documentation created multiple points where ownership had to be explicit.","textPreview":"Data review, soil collection, payout readiness, and missing documentation created multiple points where ownership had to be explicit.","textChars":133,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/a9w3m94f","slide":12,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":12,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/z61032ls","slide":12,"bbox":[76,204,1128,402]}
+{"kind":"image","id":"im/7y1kre1w","slide":12,"name":"","alt":"Service blueprint data verification workflow","bbox":[86,214,1108,382]}
+{"kind":"notes","id":"nt/e8qikf","slide":12,"text":""}
+{"kind":"slide","id":"sl/w7xosk","slide":13,"title":"The findings grouped into process, technology, and experience themes","textShapes":10}
+{"kind":"textbox","id":"sh/dcbulwva","slide":13,"text":"The findings grouped into process, technology, and experience themes","textPreview":"The findings grouped into process, technology, and experience themes","textChars":68,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/6psfil0r","slide":13,"text":"This framing helped teams see which issues were operational, which were system-driven, and which were felt by the customer.","textPreview":"This framing helped teams see which issues were operational, which were system-driven, and which were felt by the customer.","textChars":123,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/val87ed8","slide":13,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":13,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/donyd0z6","slide":13,"text":"13","textPreview":"13","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/2x4nap4r","slide":13,"bbox":[80,238,330,230]}
+{"kind":"textbox","id":"sh/vixczed8","slide":13,"text":"Process","textPreview":"Process","textChars":7,"textLines":1,"bbox":[98,256,294,30]}
+{"kind":"textbox","id":"sh/kf6dcbul","slide":13,"text":"Duplicated activities\nManual handoffs\nUndefined ownership","textPreview":"Duplicated activities | Manual handoffs | Undefined ownership","textChars":57,"textLines":3,"bbox":[98,296,294,160]}
+{"kind":"shape","id":"sh/d0z61032","slide":13,"bbox":[475,238,330,230]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":13,"text":"Technology","textPreview":"Technology","textChars":10,"textLines":1,"bbox":[493,256,294,30]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":13,"text":"Systems lacked integration\nData was not shared\nCustomer status was hard to determine","textPreview":"Systems lacked integration | Data was not shared | Customer status was hard to determine","textChars":84,"textLines":3,"bbox":[493,296,294,160]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":13,"bbox":[870,238,330,230]}
+{"kind":"textbox","id":"sh/61032lsz","slide":13,"text":"Customer experience","textPreview":"Customer experience","textChars":19,"textLines":1,"bbox":[888,256,294,30]}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":13,"text":"Long periods without communication\nMultiple entry points\nInconsistent expectations","textPreview":"Long periods without communication | Multiple entry points | Inconsistent expectations","textChars":82,"textLines":3,"bbox":[888,296,294,160]}
+{"kind":"notes","id":"nt/w7xosk","slide":13,"text":""}
+{"kind":"slide","id":"sl/brmdsc","slide":14,"title":"The work gave the organization a foundation for service improvement","textShapes":10}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":14,"text":"The work gave the organization a foundation for service improvement","textPreview":"The work gave the organization a foundation for service improvement","textChars":67,"textLines":1,"bbox":[42,46,900,96]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":14,"text":"Even without a single product release metric, the service blueprint created practical alignment and exposed where improvements should start.","textPreview":"Even without a single product release metric, the service blueprint created practical alignment and exposed where improvements should start.","textChars":140,"textLines":1,"bbox":[42,144,920,52]}
+{"kind":"shape","id":"sh/9gr2p8nq","slide":14,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/2hwfyxob","slide":14,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":14,"text":"14","textPreview":"14","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":14,"bbox":[130,226,8,8]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":14,"text":"Created the organization's first end-to-end service blueprint","textPreview":"Created the organization's first end-to-end service blueprint","textChars":61,"textLines":1,"bbox":[154,218,876,34]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":14,"bbox":[130,274,8,8]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":14,"text":"Aligned business units around one shared customer journey","textPreview":"Aligned business units around one shared customer journey","textChars":57,"textLines":1,"bbox":[154,266,876,34]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":14,"bbox":[130,322,8,8]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":14,"text":"Revealed duplicated operational work","textPreview":"Revealed duplicated operational work","textChars":36,"textLines":1,"bbox":[154,314,876,34]}
+{"kind":"shape","id":"sh/1orytsvu","slide":14,"bbox":[130,370,8,8]}
+{"kind":"textbox","id":"sh/c7u54zid","slide":14,"text":"Identified automation opportunities","textPreview":"Identified automation opportunities","textChars":35,"textLines":1,"bbox":[154,362,876,34]}
+{"kind":"shape","id":"sh/judg7ads","slide":14,"bbox":[130,418,8,8]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":14,"text":"Improved visibility into cross-functional dependencies","textPreview":"Improved visibility into cross-functional dependencies","textChars":54,"textLines":1,"bbox":[154,410,876,34]}
+{"kind":"shape","id":"sh/1032lszq","slide":14,"bbox":[130,466,8,8]}
+{"kind":"textbox","id":"sh/cfa9w3m9","slide":14,"text":"Established a foundation for future service improvements","textPreview":"Established a foundation for future service improvements","textChars":56,"textLines":1,"bbox":[154,458,876,34]}
+{"kind":"notes","id":"nt/brmdsc","slide":14,"text":""}
+{"kind":"slide","id":"sl/2e4fp2","slide":15,"title":"Portfolio takeaway","textShapes":7}
+{"kind":"textbox","id":"sh/d4vmtwra","slide":15,"text":"Portfolio takeaway","textPreview":"Portfolio takeaway","textChars":18,"textLines":1,"bbox":[42,58,440,44]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":15,"text":"This was not only a map of a service. It was a shared operating model for teams that had been optimizing separate pieces of one customer journey.","textPreview":"This was not only a map of a service. It was a shared operating model for teams that had been optimizing separate pieces of one customer ...","textChars":145,"textLines":1,"bbox":[42,150,970,190]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":15,"text":"The case study demonstrates service design, systems thinking, research synthesis, facilitation, and the ability to make enterprise complexity usable.","textPreview":"The case study demonstrates service design, systems thinking, research synthesis, facilitation, and the ability to make enterprise comple...","textChars":149,"textLines":1,"bbox":[42,462,820,70]}
+{"kind":"shape","id":"sh/o7qpg3ex","slide":15,"bbox":[1008,94,160,160]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1032,122,112,70]}
+{"kind":"textbox","id":"sh/61032lsz","slide":15,"text":"slides","textPreview":"slides","textChars":6,"textLines":1,"bbox":[1032,202,112,30]}
+{"kind":"shape","id":"sh/vmtwra5g","slide":15,"bbox":[42,656,1196,0]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":15,"text":"Carbon Program Service Blueprint","textPreview":"Carbon Program Service Blueprint","textChars":32,"textLines":1,"bbox":[42,674,360,22]}
+{"kind":"textbox","id":"sh/dg7adsji","slide":15,"text":"15","textPreview":"15","textChars":2,"textLines":1,"bbox":[1198,674,40,22]}
+{"kind":"notes","id":"nt/2e4fp2","slide":15,"text":""}

@@ -1,0 +1,925 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/qb3lp2",
+    "id": "qb3lp2",
+    "slide": 3,
+    "layoutId": "ccedb88d-72fc-4f26-97bb-f0d21c72dede",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ccedb88d-72fc-4f26-97bb-f0d21c72dede",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "d500a6ea-b832-46be-9314-27bc2b86c32a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "1",
+      "bbox": [
+        42,
+        46,
+        900,
+        96
+      ],
+      "geometry": "rect",
+      "text": "The goal was a single source of truth for the service",
+      "textPreview": "The goal was a single source of truth for the service",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The goal was a single source of truth for the"
+          },
+          {
+            "index": 2,
+            "text": "service"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The goal was a single source of truth for the service",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The goal was a single source of truth for the service",
+              "fontSize": 44,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "2",
+      "bbox": [
+        42,
+        144,
+        920,
+        52
+      ],
+      "geometry": "rect",
+      "text": "The blueprint needed to document the visible journey and the hidden operational work that made it possible.",
+      "textPreview": "The blueprint needed to document the visible journey and the hidden operational work that made it possible.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "The blueprint needed to document the visible journey and the hidden operational work that made it"
+          },
+          {
+            "index": 2,
+            "text": "possible."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "The blueprint needed to document the visible journey and the hidden operational work that made it possible.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#756F64"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "The blueprint needed to document the visible journey and the hidden operational work that made it possible.",
+              "fontSize": 20,
+              "color": "#756F64"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "3",
+      "bbox": [
+        42,
+        656,
+        1196,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D8CAB7",
+      "lineWidth": 1
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "4",
+      "bbox": [
+        42,
+        674,
+        360,
+        22
+      ],
+      "geometry": "rect",
+      "text": "Carbon Program Service Blueprint",
+      "textPreview": "Carbon Program Service Blueprint",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Carbon Program Service Blueprint"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Carbon Program Service Blueprint",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#756F64",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Carbon Program Service Blueprint",
+              "fontSize": 13,
+              "color": "#756F64",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "5",
+      "bbox": [
+        1198,
+        674,
+        40,
+        22
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#756F64",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 13,
+              "color": "#756F64",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "6",
+      "bbox": [
+        64,
+        240,
+        250,
+        178
+      ],
+      "geometry": "rect",
+      "fillColor": "#EEE4D4",
+      "lineColor": "#A64F2B",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "7",
+      "bbox": [
+        82,
+        258,
+        214,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Customer",
+      "textPreview": "Customer",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#A64F2B",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Customer"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Customer",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#A64F2B",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Customer",
+              "fontSize": 17,
+              "color": "#A64F2B",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9w3m94fu",
+      "id": "8",
+      "bbox": [
+        82,
+        298,
+        214,
+        108
+      ],
+      "geometry": "rect",
+      "text": "Understand every touchpoint and expectation.",
+      "textPreview": "Understand every touchpoint and expectation.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Understand every"
+          },
+          {
+            "index": 2,
+            "text": "touchpoint and"
+          },
+          {
+            "index": 3,
+            "text": "expectation."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Understand every touchpoint and expectation.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Understand every touchpoint and expectation.",
+              "fontSize": 24,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kb6xkf6d",
+      "id": "9",
+      "bbox": [
+        356,
+        240,
+        250,
+        178
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFAF0",
+      "lineColor": "#D8CAB7",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "10",
+      "bbox": [
+        374,
+        258,
+        214,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Operations",
+      "textPreview": "Operations",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Operations"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Operations",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#756F64",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Operations",
+              "fontSize": 17,
+              "color": "#756F64",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "11",
+      "bbox": [
+        374,
+        298,
+        214,
+        108
+      ],
+      "geometry": "rect",
+      "text": "Reveal hidden work, ownership gaps, and handoffs.",
+      "textPreview": "Reveal hidden work, ownership gaps, and handoffs.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reveal hidden"
+          },
+          {
+            "index": 2,
+            "text": "work, ownership"
+          },
+          {
+            "index": 3,
+            "text": "gaps, and"
+          },
+          {
+            "index": 4,
+            "text": "handoffs."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reveal hidden work, ownership gaps, and handoffs.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reveal hidden work, ownership gaps, and handoffs.",
+              "fontSize": 24,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "12",
+      "bbox": [
+        648,
+        240,
+        250,
+        178
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFAF0",
+      "lineColor": "#D8CAB7",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "13",
+      "bbox": [
+        666,
+        258,
+        214,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Systems",
+      "textPreview": "Systems",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Systems"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Systems",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#756F64",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Systems",
+              "fontSize": 17,
+              "color": "#756F64",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "14",
+      "bbox": [
+        666,
+        298,
+        214,
+        108
+      ],
+      "geometry": "rect",
+      "text": "Map dependencies across CRM, DMP, automation, and payment tools.",
+      "textPreview": "Map dependencies across CRM, DMP, automation, and payment tools.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Map"
+          },
+          {
+            "index": 2,
+            "text": "dependencies"
+          },
+          {
+            "index": 3,
+            "text": "across CRM,"
+          },
+          {
+            "index": 4,
+            "text": "DMP, automation,"
+          },
+          {
+            "index": 5,
+            "text": "and payment"
+          },
+          {
+            "index": 6,
+            "text": "tools."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Map dependencies across CRM, DMP, automation, and payment tools.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Map dependencies across CRM, DMP, automation, and payment tools.",
+              "fontSize": 24,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "15",
+      "bbox": [
+        940,
+        240,
+        250,
+        178
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFAF0",
+      "lineColor": "#D8CAB7",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "16",
+      "bbox": [
+        958,
+        258,
+        214,
+        30
+      ],
+      "geometry": "rect",
+      "text": "Alignment",
+      "textPreview": "Alignment",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#756F64",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Alignment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Alignment",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#756F64",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Alignment",
+              "fontSize": 17,
+              "color": "#756F64",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "17",
+      "bbox": [
+        958,
+        298,
+        214,
+        108
+      ],
+      "geometry": "rect",
+      "text": "Create a shared foundation for process improvements.",
+      "textPreview": "Create a shared foundation for process improvements.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#191713",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Create a shared"
+          },
+          {
+            "index": 2,
+            "text": "foundation for"
+          },
+          {
+            "index": 3,
+            "text": "process"
+          },
+          {
+            "index": 4,
+            "text": "improvements."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Create a shared foundation for process improvements.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#191713"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Create a shared foundation for process improvements.",
+              "fontSize": 24,
+              "color": "#191713"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

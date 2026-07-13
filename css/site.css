@@ -558,6 +558,160 @@ q,
   padding-left: 22px;
 }
 
+.blueprint-page {
+  width: min(1180px, 100%);
+}
+
+.blueprint-hero {
+  max-width: 1040px;
+}
+
+.blueprint-hero h1 {
+  max-width: 980px;
+}
+
+.blueprint-lead img {
+  max-height: 720px;
+  object-fit: contain;
+  background: var(--chalk);
+}
+
+.project-snapshot {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-bottom: clamp(38px, 7vw, 76px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.project-snapshot article,
+.insight-grid article {
+  padding: clamp(20px, 3vw, 28px);
+  background: var(--panel);
+}
+
+.project-snapshot span {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.project-snapshot strong {
+  display: block;
+  font-family: var(--display-serif);
+  font-size: clamp(1.55rem, 3vw, 2.3rem);
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.project-snapshot p {
+  margin: 14px 0 0;
+  color: var(--muted);
+}
+
+.narrative-section {
+  display: grid;
+  gap: 18px;
+}
+
+.insight-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.insight-grid h3 {
+  margin-top: 0;
+}
+
+.insight-grid p {
+  margin-top: 10px;
+}
+
+.process-ribbon {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.process-ribbon span {
+  display: flex;
+  min-height: 104px;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 12px;
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 0.88rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.process-ribbon span:nth-child(5) {
+  background: var(--soft);
+  color: var(--accent);
+}
+
+.blueprint-evidence {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.48fr) minmax(0, 1fr);
+  gap: clamp(22px, 4vw, 42px);
+  align-items: center;
+}
+
+.blueprint-evidence.reverse {
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.48fr);
+}
+
+.blueprint-evidence.reverse > div {
+  order: 2;
+}
+
+.blueprint-evidence.reverse > figure {
+  order: 1;
+}
+
+.blueprint-evidence figure {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--chalk);
+  box-shadow: 0 18px 45px rgba(25, 23, 19, 0.08);
+}
+
+.blueprint-evidence img {
+  width: 100%;
+  max-height: 540px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.blueprint-evidence h2 {
+  font-size: clamp(2rem, 4vw, 3.8rem);
+}
+
+.impact-section ul {
+  margin-top: 6px;
+}
+
 .about-list {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -696,8 +850,21 @@ q,
   .case-grid,
   .about-list,
   .about-layout,
-  .principle-panel {
+  .principle-panel,
+  .project-snapshot,
+  .insight-grid,
+  .blueprint-evidence,
+  .blueprint-evidence.reverse {
     grid-template-columns: 1fr;
+  }
+
+  .blueprint-evidence.reverse > div,
+  .blueprint-evidence.reverse > figure {
+    order: initial;
+  }
+
+  .process-ribbon {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .about-intro {
