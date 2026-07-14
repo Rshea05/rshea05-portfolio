@@ -768,6 +768,24 @@ q,
   width: min(1120px, 100%);
 }
 
+.agronomy-page {
+  width: min(1180px, 100%);
+}
+
+.agronomy-page .blueprint-lead img {
+  background: #11161d;
+}
+
+.agronomy-artifacts {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.agronomy-artifacts img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: top center;
+}
+
 .system-principles,
 .toolchain-grid,
 .metric-strip {
@@ -1296,6 +1314,7 @@ q,
 
   .brew-screen-grid,
   .source-artifact-grid,
+  .agronomy-artifacts,
   .brew-screen-card.feature {
     grid-template-columns: 1fr;
     grid-column: auto;

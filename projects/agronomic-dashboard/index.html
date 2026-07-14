@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agronomic Dashboard | Ryan Shea</title>
+    <meta name="description" content="Agronomic Dashboard case study by Ryan Shea covering field-level decision support, model transparency, insight cards, and AI-assisted exploration.">
+    <link rel="stylesheet" href="../../css/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Ryan Shea / UX and product design</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/about">About</a>
+        <a href="/projects" aria-current="page">Projects</a>
+      </nav>
+    </header>
+
+    <main class="page detail-page agronomy-page">
+      <nav class="breadcrumb" aria-label="Project breadcrumb">
+        <a href="/projects/">Projects</a>
+      </nav>
+
+      <section class="detail-hero blueprint-hero" aria-labelledby="case-title">
+        <p class="eyebrow">Lead UX Strategist / Product Design Lead</p>
+        <h1 id="case-title">Agronomic Dashboard</h1>
+        <p>A unified decision-support experience that connects field data, predictive models, insight cards, and AI-assisted exploration into one workflow for faster field-level action.</p>
+      </section>
+
+      <figure class="case-study-figure blueprint-lead">
+        <img src="../../assets/agronomic-dashboard/dashboard-ai.jpg" alt="Agronomic dashboard concept showing season overview, model performance, field recommendations, data analysis, and an AI field assistant">
+      </figure>
+
+      <section class="project-snapshot" aria-label="Project snapshot">
+        <article>
+          <span>Problem</span>
+          <strong>Too many tools between signal and action</strong>
+          <p>Fragmented dashboards, analytics tools, model outputs, and manual interpretation created cognitive overload and slowed the path from insight to action.</p>
+        </article>
+        <article>
+          <span>Strategy</span>
+          <strong>Design for situational awareness</strong>
+          <p>Reframed passive reporting as active decision support with model transparency, field-level recommendations, integrated analysis, and query-based insight discovery.</p>
+        </article>
+        <article>
+          <span>Outcome</span>
+          <strong>A trusted decision-support system</strong>
+          <p>Shifted the product from a reporting tool into a decision-support workflow that increased trust in predictive outputs and accelerated data-driven field workflows.</p>
+        </article>
+      </section>
+
+      <article class="case-study">
+        <section class="narrative-section">
+          <h2>The dashboard needed to reduce interpretation work, not add another reporting surface.</h2>
+          <p>Agronomic teams were working across field records, weather signals, scouting notes, predictive model outputs, and operational updates. Each source had value, but the experience forced users to assemble the story themselves.</p>
+          <p>The design challenge was to create one place where a grower, advisor, or operations partner could understand what changed, why it mattered, and what action to take next.</p>
+          <div class="insight-grid">
+            <article>
+              <h3>Model transparency</h3>
+              <p>Expose confidence, accuracy, weather impact, and the factors influencing recommendations.</p>
+            </article>
+            <article>
+              <h3>Insight cards</h3>
+              <p>Turn seasonal data, risk signals, and watchlist items into compact, scannable decision prompts.</p>
+            </article>
+            <article>
+              <h3>Decision support</h3>
+              <p>Connect forecast, field performance, and recommended actions in the same working view.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="artifact-section narrative-section">
+          <div>
+            <p class="eyebrow">Information architecture</p>
+            <h2>Early IA work shaped the page around urgency, context, and next action.</h2>
+            <p>The information architecture grouped the experience into a personalized opening, KPI cards, seasonal widgets, weather context, and a latest-updates rail. The goal was not to show every available metric. It was to make the first screen answer: where should I look, what changed, and what needs attention?</p>
+          </div>
+          <figure class="case-study-figure compact">
+            <img src="../../assets/agronomic-dashboard/annotated-layout.png" alt="Annotated agronomic dashboard wireframe labeling welcome message, KPI cards, seasonal widgets, weather update, and latest updates">
+            <figcaption>Annotated layout showing the hierarchy used to balance personal context, seasonal metrics, and time-sensitive updates.</figcaption>
+          </figure>
+        </section>
+
+        <section class="artifact-section narrative-section">
+          <div>
+            <p class="eyebrow">Navigation strategy</p>
+            <h2>Navigation patterns were evaluated for speed before the system language was finalized.</h2>
+            <p>Navigation studies helped identify which dashboard structures supported faster movement through nested content. The resulting direction favored a persistent left rail for global movement, top-level contextual filters, and cards that could hold focused workflows without forcing users to leave the situational view.</p>
+          </div>
+          <figure class="case-study-figure compact">
+            <img src="../../assets/agronomic-dashboard/navigation-study.png" alt="Navigation study comparing fastest and slowest navigation patterns for dashboard layouts">
+            <figcaption>Navigation pattern comparison used to evaluate how quickly users could move through layered dashboard content.</figcaption>
+          </figure>
+        </section>
+
+        <section class="narrative-section">
+          <h2>Wireframes tested the operating rhythm of the dashboard.</h2>
+          <p>The lower-fidelity views explored how dashboard modules would behave across roles and seasons: grower filters, planting dates, weekly planting progress, vegetation index, localized weather, and a persistent latest-updates rail.</p>
+          <p>This phase made the system feel operational. It showed how users could move from a broad account view into field-specific work without losing awareness of alerts, missing data, service needs, or advisor recommendations.</p>
+          <div class="artifact-showcase agronomy-artifacts">
+            <figure>
+              <img src="../../assets/agronomic-dashboard/wireframe-detail.png" alt="Dashboard wireframe with greeting, KPI cards, seasonal widgets, weather summary, and latest updates">
+              <figcaption><strong>Dashboard structure</strong>Personalized context, KPI cards, seasonal widgets, and the updates rail were organized around daily operating decisions.</figcaption>
+            </figure>
+            <figure>
+              <img src="../../assets/agronomic-dashboard/example-widgets.png" alt="Example agronomic widgets for planting dates, grain marketing, planting progress, and weather forecast">
+              <figcaption><strong>Widget system</strong>Reusable cards created a flexible foundation for planting progress, marketing, weather, and field-level task modules.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="artifact-section narrative-section">
+          <div>
+            <p class="eyebrow">Final concept</p>
+            <h2>The final direction connected predictive insight with the user's next question.</h2>
+            <p>The polished concept brought model performance, yield potential, risk signals, weather impact, watchlists, data analysis, and AI-assisted exploration into one workspace. Users could review field-level recommendations, inspect the model signals behind them, and ask follow-up questions without leaving the dashboard.</p>
+          </div>
+          <figure class="case-study-figure compact">
+            <img src="../../assets/agronomic-dashboard/dashboard.jpg" alt="Final agronomic dashboard concept with field cards, model performance, recommendations, and data analysis">
+            <figcaption>Final dashboard concept showing model transparency, field-level opportunity cards, watchlists, and embedded analysis.</figcaption>
+          </figure>
+        </section>
+
+        <section class="narrative-section impact-section">
+          <h2>The impact was a clearer path from data to field-level action.</h2>
+          <p>The work repositioned the product from a reporting destination into a decision-support system. Instead of asking users to reconcile disconnected signals, the dashboard framed model outputs, field status, and recommendations as one understandable workflow.</p>
+          <ul>
+            <li>Reduced cognitive load by organizing seasonal metrics, alerts, and recommendations around daily decisions.</li>
+            <li>Increased confidence in predictive outputs by surfacing model performance, confidence, and contributing factors.</li>
+            <li>Accelerated analysis by pairing structured insight cards with AI-assisted query and exploration patterns.</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
