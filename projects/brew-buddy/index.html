@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brew Buddy | Ryan Shea</title>
+    <meta name="description" content="Brew Buddy case study by Ryan Shea showing how a strong design system, architecture, and dashboard concept became a working brewing app prototype in a short build cycle.">
+    <link rel="stylesheet" href="../../css/site.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Ryan Shea / UX and product design</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/about">About</a>
+        <a href="/projects" aria-current="page">Projects</a>
+      </nav>
+    </header>
+
+    <main class="page detail-page blueprint-page">
+      <nav class="breadcrumb" aria-label="Project breadcrumb">
+        <a href="/projects/">Projects</a>
+      </nav>
+
+      <section class="detail-hero blueprint-hero" aria-labelledby="case-title">
+        <p class="eyebrow">Side Project / Design Systems / AI-Assisted Product Build</p>
+        <h1 id="case-title">Brew Buddy</h1>
+        <p>A passion project showing how a well-made design system can compress the path from zero to working product.</p>
+      </section>
+
+      <figure class="case-study-figure blueprint-lead">
+        <img src="../../assets/brew-buddy-system-card.svg" alt="Brew Buddy mobile app and design system artifact">
+      </figure>
+
+      <section class="project-snapshot" aria-label="Project snapshot">
+        <article>
+          <span>Starting Point</span>
+          <strong>Two source files</strong>
+          <p>A Figma design system, the intended architecture, and a home dashboard screen were enough to establish the product language and build direction.</p>
+        </article>
+        <article>
+          <span>Build Shape</span>
+          <strong>About three hours</strong>
+          <p>From the first design-system inspection around 4:27 PM to final-ish polish around 7:32 PM, the app moved from reference material to a working product flow.</p>
+        </article>
+        <article>
+          <span>Evidence</span>
+          <strong>Seven local commits</strong>
+          <p>The work was captured as small checkpoints, including the prototype, data fixes, artwork, font assets, circular labels, and recipe timer controls.</p>
+        </article>
+      </section>
+
+      <article class="case-study">
+        <section>
+          <h2>The Experiment</h2>
+          <p>Brew Buddy started as a personal product idea: a small-batch homebrewing companion for tracking active brews, browsing recipes, scaling ingredients, managing brew-day steps, and keeping pantry stock visible.</p>
+          <p>The point of the case study is not just the app. The point is the production model. I wanted to see how much product could be created when the AI implementation process was not starting from vague taste, but from a clear design system, a target architecture, and one representative dashboard screen.</p>
+        </section>
+
+        <section>
+          <h2>What I Provided</h2>
+          <p>The initial prompt gave the build just enough structure to move fast without flattening the product into a generic mobile UI.</p>
+          <ul>
+            <li>A Figma design system for visual foundations, components, spacing, and tone.</li>
+            <li>An intended architecture for how the app should be organized.</li>
+            <li>A home dashboard screen that established the product's first real interface pattern.</li>
+          </ul>
+          <p>That combination mattered. The design system supplied the visual grammar, the architecture supplied product logic, and the dashboard supplied an example of how the system should behave in context.</p>
+          <div class="source-artifact-grid" aria-label="Brew Buddy source artifacts">
+            <figure class="source-artifact">
+              <img src="../../assets/brew-buddy-architecture.png" alt="Brew Buddy intended architecture map showing login, home, recipes, batches, inventory, recipe library, tools, settings, and nested screens">
+              <figcaption>The architecture map gave the build a navigation model before implementation started: login, home, recipes, batches, inventory, online recipe library, tools, settings, and the deeper screens under each area.</figcaption>
+            </figure>
+            <figure class="source-artifact portrait">
+              <img src="../../assets/brew-buddy-original-design.png" alt="Original Brew Buddy home dashboard design file with Sweet Stout feature card, beers brewed, weekly deals, and latest brews">
+              <figcaption>The original home dashboard design established the brand, card language, bottom navigation, featured beer moment, and latest-brews pattern.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section>
+          <h2>What Got Built</h2>
+          <p>The first committed prototype became a working mobile app shell with Home, Recipes, Batches, Inventory, and Settings. From there, the build expanded through quick, testable increments instead of one large handoff.</p>
+          <ul>
+            <li>Recipe library with detailed one-gallon beer recipes, profiles, ingredient lists, mash steps, boil schedules, fermentation notes, and bottling flows.</li>
+            <li>Batch-size scaling so recipe ingredients could redraw from a one-gallon default to larger whole-gallon batches.</li>
+            <li>Mobile-native batch-size selection, moving from a web dropdown to a bottom sheet with larger tap targets.</li>
+            <li>Header navigation logic that kept top-level tabs clean and only showed back affordances on drill-in recipe screens.</li>
+            <li>Active brew cards, featured brew artwork, circular latest-brew labels, Porter Sans branding, and playful beer-label visuals.</li>
+            <li>A recipe phase timer with start, pause, reset, and done states for brew-day control.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Product Screens</h2>
+          <p>By the final polish window, the prototype had enough surface area to feel like a real product: a branded home dashboard, recipe browsing, brew-day timing, active batch detail, and stock management.</p>
+          <div class="brew-screen-grid" aria-label="Brew Buddy product screenshots">
+            <figure class="brew-screen-card feature">
+              <img src="../../assets/brew-buddy-home.png" alt="Brew Buddy home dashboard with featured Sweet Stout card, yearly beer count, weekly deals, and bottom navigation">
+              <figcaption>Home dashboard with featured beer artwork, year-to-date activity, promotional card, and bottom navigation.</figcaption>
+            </figure>
+            <figure class="brew-screen-card">
+              <img src="../../assets/brew-buddy-recipes.png" alt="Brew Buddy recipe list with search, beer type selector, and recipe cards">
+              <figcaption>Recipe library with search, beer-type filtering, and scannable one-gallon recipe cards.</figcaption>
+            </figure>
+            <figure class="brew-screen-card">
+              <img src="../../assets/brew-buddy-timer.png" alt="Brew Buddy brew day timing screen with phase timer, pause, reset, and done controls">
+              <figcaption>Brew-day phase timer with start, pause, reset, done, and step-by-step process states.</figcaption>
+            </figure>
+            <figure class="brew-screen-card">
+              <img src="../../assets/brew-buddy-batch-detail.png" alt="Brew Buddy Red Fox IPA batch detail screen with recipe, stats, and ingredient sections">
+              <figcaption>Active batch detail for Red Fox IPA, combining stats, recipe information, and visual beer-label identity.</figcaption>
+            </figure>
+            <figure class="brew-screen-card">
+              <img src="../../assets/brew-buddy-inventory.png" alt="Brew Buddy inventory category screen with equipment, bottles, grains, hops, and yeast">
+              <figcaption>Inventory categories for equipment, packaging, grains, hops, and yeast.</figcaption>
+            </figure>
+            <figure class="brew-screen-card">
+              <img src="../../assets/brew-buddy-hops.png" alt="Brew Buddy hops inventory detail screen with scan item and manual input actions">
+              <figcaption>Hops detail view with stock levels, freshness guidance, scan action, and manual input.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section>
+          <h2>The Pace</h2>
+          <p>The chat log shows a realistic rapid-build window: the first Brew Buddy design-system message appears around 4:27 PM, the user direction to inspect the pages and components followed shortly after, and final-ish polish was happening around 7:32 PM.</p>
+          <p>In roughly three hours, the product moved from design-system review to a working mobile prototype with recipes, batch scaling, bottom-sheet interaction, mobile testing, Git checkpoints, brand polish, label artwork, and a brew-day timer. The late-stage polish still moved in minutes: the featured brew card update took about 1 minute 45 seconds, the Porter Sans wordmark update took under a minute, the circular latest-brews artwork took just under two minutes, and the final recipe phase timer took about 5 minutes 57 seconds from request to committed change.</p>
+          <p>That pace came from reducing ambiguity. The implementation could reuse the same product shell, data model, visual language, and interaction patterns instead of redesigning each screen from scratch.</p>
+          <div class="process-ribbon enterprise-process" aria-label="Build progression">
+            <span>Design system</span>
+            <span>Architecture</span>
+            <span>Dashboard</span>
+            <span>Prototype</span>
+            <span>Mobile testing</span>
+            <span>Brand polish</span>
+            <span>Timer controls</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Testing Shaped the Product</h2>
+          <p>The design system accelerated the build, but the product still improved through hands-on testing. A recipe-size selector first shipped as a freeform input, then changed to a whole-gallon dropdown, then became a bottom sheet because that pattern felt more appropriate for iOS and Android.</p>
+          <p>Device testing also exposed a real interaction bug: the recipe detail screen and recipe card handler were using the same data attribute, so taps inside the detail view were being interpreted as recipe-card selections. Renaming the internal state unblocked the picker and made the prototype usable on a phone over the local Wi-Fi server.</p>
+          <figure class="iteration-evidence">
+            <img src="../../assets/brew-buddy-iteration-bug.png" alt="Brew Buddy mobile screen showing cramped recipe step text before the layout was corrected">
+            <figcaption>One of the useful parts of the build was seeing issues immediately. This cramped recipe-step layout appeared during testing, then became a concrete fix instead of an abstract QA note.</figcaption>
+          </figure>
+        </section>
+
+        <section>
+          <h2>Why the System Worked</h2>
+          <p>The design system did more than make the app look consistent. It created a shared contract between product intent and implementation.</p>
+          <ul>
+            <li>Visual decisions were already constrained, so iteration focused on behavior and product usefulness.</li>
+            <li>Components had enough definition to support new screens without inventing a new style each time.</li>
+            <li>The architecture gave the AI a map for where features belonged and how navigation should behave.</li>
+            <li>The dashboard acted as a north star for tone: practical, warm, mobile-first, and specific to brewing.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>The Takeaway</h2>
+          <p>Brew Buddy shows the difference between asking AI to make an app and giving AI a product system to build from.</p>
+          <p>With a strong design system, a clear architecture, and one screen that demonstrates the intended experience, the work moved from concept to a functional, testable product surface in a very short cycle. The result was not just faster output. It was faster alignment: fewer arbitrary design choices, smaller implementation loops, and more time spent improving the actual brewing experience.</p>
+        </section>
+
+        <section>
+          <h2>Final Artifact Package</h2>
+          <p>The case study will close with the product itself, not just screenshots. The final artifact package is planned to include a link to the working Brew Buddy app and a localized downloadable version so the prototype can be opened, tested, and shared as part of the story.</p>
+          <p>That matters because the output is not only a design exploration. It becomes a tangible product artifact: design system, implementation, screenshots, live prototype, and local build moving together.</p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
