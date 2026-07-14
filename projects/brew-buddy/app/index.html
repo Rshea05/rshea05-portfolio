@@ -83,12 +83,11 @@
           <input type="search" id="recipe-search" placeholder="Search recipes" />
         </label>
         <div class="batch-filters recipe-filters" aria-label="Recipe filters">
-          <label>
+          <button class="filter-control" type="button" data-action="open-filter-sheet" data-filter-key="recipeStyle">
             <span>Beer type</span>
-            <select id="recipe-style-filter">
-              <option value="all">All types</option>
-            </select>
-          </label>
+            <strong data-filter-value="recipeStyle">All types</strong>
+            <span class="material-symbols-rounded" aria-hidden="true">expand_more</span>
+          </button>
         </div>
         <div class="recipe-list" id="recipe-list" aria-live="polite"></div>
       </section>
@@ -150,25 +149,16 @@
           <input type="search" id="batch-search" placeholder="Search completed beers" />
         </label>
         <div class="batch-filters" aria-label="Completed batch filters">
-          <label>
+          <button class="filter-control" type="button" data-action="open-filter-sheet" data-filter-key="score">
             <span>Score</span>
-            <select id="score-filter">
-              <option value="all">All scores</option>
-              <option value="4.5">4.5+</option>
-              <option value="4">4.0+</option>
-              <option value="under-4">Under 4.0</option>
-            </select>
-          </label>
-          <label>
+            <strong data-filter-value="score">All scores</strong>
+            <span class="material-symbols-rounded" aria-hidden="true">expand_more</span>
+          </button>
+          <button class="filter-control" type="button" data-action="open-filter-sheet" data-filter-key="date">
             <span>Brew date</span>
-            <select id="date-filter">
-              <option value="all">All dates</option>
-              <option value="winter">Jan-Mar</option>
-              <option value="spring">Apr-Jun</option>
-              <option value="summer">Jul-Sep</option>
-              <option value="fall">Oct-Dec</option>
-            </select>
-          </label>
+            <strong data-filter-value="date">All dates</strong>
+            <span class="material-symbols-rounded" aria-hidden="true">expand_more</span>
+          </button>
         </div>
         <div class="score-list" id="completed-batch-list" aria-live="polite"></div>
       </section>
@@ -184,6 +174,22 @@
           <article><strong>User Profile</strong><span>Brewer details and preferences</span></article>
           <article><strong>Units / Measurements</strong><span>US customary active</span></article>
           <article><strong>Tools</strong><span>Calculators, corrections, and hop freshness</span></article>
+        </div>
+      </section>
+
+      <section class="bottom-sheet hidden" id="filter-sheet" data-filter-sheet aria-label="Filter options">
+        <button class="sheet-scrim" type="button" data-action="close-filter-sheet" aria-label="Close filter options"></button>
+        <div class="sheet-panel">
+          <div class="sheet-header">
+            <div>
+              <span class="eyebrow">Filter</span>
+              <h2 data-filter-title>Choose option</h2>
+            </div>
+            <button class="icon-button" type="button" data-action="close-filter-sheet" aria-label="Close">
+              <span class="material-symbols-rounded" aria-hidden="true">close</span>
+            </button>
+          </div>
+          <div class="sheet-options" data-filter-options></div>
         </div>
       </section>
 

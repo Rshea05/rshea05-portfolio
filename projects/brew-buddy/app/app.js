@@ -1858,11 +1858,12 @@ const recipeListPanel = document.querySelector("#recipe-list");
 const recipeDetailPanel = document.querySelector("#recipe-detail-panel");
 const inventoryDetailPanel = document.querySelector("#inventory-detail-panel");
 const recipeSearch = document.querySelector("#recipe-search");
-const recipeStyleFilter = document.querySelector("#recipe-style-filter");
 const batchSearch = document.querySelector("#batch-search");
-const scoreFilter = document.querySelector("#score-filter");
-const dateFilter = document.querySelector("#date-filter");
 const completedBatchList = document.querySelector("#completed-batch-list");
+const filterSheet = document.querySelector("#filter-sheet");
+const filterTitle = document.querySelector("[data-filter-title]");
+const filterOptions = document.querySelector("[data-filter-options]");
+const filterValueLabels = document.querySelectorAll("[data-filter-value]");
 const navButtons = document.querySelectorAll(".tab-bar button");
 const beersBrewedButton = document.querySelector("#beers-brewed-button");
 const headerBackButton = document.querySelector("#header-back-button");
@@ -1903,6 +1904,31 @@ const panelNavMap = {
   inventoryDetail: "inventory",
   batches: "batches",
   settings: "settings",
+};
+const filterState = {
+  recipeStyle: "all",
+  score: "all",
+  date: "all",
+};
+const filterStaticOptions = {
+  score: [
+    ["all", "All scores"],
+    ["4.5", "4.5+"],
+    ["4", "4.0+"],
+    ["under-4", "Under 4.0"],
+  ],
+  date: [
+    ["all", "All dates"],
+    ["winter", "Jan-Mar"],
+    ["spring", "Apr-Jun"],
+    ["summer", "Jul-Sep"],
+    ["fall", "Oct-Dec"],
+  ],
+};
+const filterTitles = {
+  recipeStyle: "Beer type",
+  score: "Score",
+  date: "Brew date",
 };
 
 function brewCardTemplate(brew, compact = false) {
@@ -1945,15 +1971,68 @@ function recipeCardTemplate(recipe) {
 
 function populateRecipeFilters() {
   const styles = [...new Set(realRecipes.map((recipe) => recipe.style))].sort((a, b) => a.localeCompare(b));
-  recipeStyleFilter.innerHTML = `
-    <option value="all">All types</option>
-    ${styles.map((style) => `<option value="${style}">${style}</option>`).join("")}
-  `;
+  filterStaticOptions.recipeStyle = [["all", "All types"], ...styles.map((style) => [style, style])];
+  updateFilterLabels();
+}
+
+function getFilterOptions(filterKey) {
+  return filterStaticOptions[filterKey] || [];
+}
+
+function getFilterLabel(filterKey, value = filterState[filterKey]) {
+  return getFilterOptions(filterKey).find(([optionValue]) => optionValue === value)?.[1] || "All";
+}
+
+function updateFilterLabels() {
+  filterValueLabels.forEach((label) => {
+    const filterKey = label.dataset.filterValue;
+    label.textContent = getFilterLabel(filterKey);
+  });
+}
+
+function filterOptionsTemplate(filterKey) {
+  const selectedValue = filterState[filterKey];
+  return getFilterOptions(filterKey).map(([value, label]) => `
+    <button
+      class="${value === selectedValue ? "selected" : ""}"
+      type="button"
+      data-action="set-filter"
+      data-filter-key="${filterKey}"
+      data-filter-option-value="${value}"
+    >
+      <span>${label}</span>
+      <span class="material-symbols-rounded" aria-hidden="true">check</span>
+    </button>
+  `).join("");
+}
+
+function openFilterSheet(filterKey) {
+  if (!Object.prototype.hasOwnProperty.call(filterState, filterKey)) return;
+  filterSheet.dataset.activeFilter = filterKey;
+  filterTitle.textContent = filterTitles[filterKey] || "Choose option";
+  filterOptions.innerHTML = filterOptionsTemplate(filterKey);
+  filterSheet.classList.remove("hidden");
+}
+
+function closeFilterSheet() {
+  filterSheet.classList.add("hidden");
+}
+
+function setFilterValue(filterKey, value) {
+  if (!Object.prototype.hasOwnProperty.call(filterState, filterKey)) return;
+  filterState[filterKey] = value;
+  updateFilterLabels();
+  if (filterKey === "recipeStyle") {
+    renderRecipes();
+  } else {
+    renderCompletedBatches();
+  }
+  closeFilterSheet();
 }
 
 function renderRecipes() {
   const normalizedQuery = recipeSearch.value.trim().toLowerCase();
-  const styleValue = recipeStyleFilter.value;
+  const styleValue = filterState.recipeStyle;
   const matches = realRecipes.filter((recipe) => {
     const ingredients = [
       ...recipe.ingredients.fermentables,
@@ -2001,8 +2080,8 @@ function batchMatchesScore(batch, scoreValue) {
 
 function renderCompletedBatches() {
   const normalizedQuery = batchSearch.value.trim().toLowerCase();
-  const scoreValue = scoreFilter.value;
-  const dateValue = dateFilter.value;
+  const scoreValue = filterState.score;
+  const dateValue = filterState.date;
   const matches = completedBatches.filter((batch) => {
     const searchable = `${batch.name} ${batch.style} ${batch.date} ${batch.packageType} ${batch.score} ${batch.note}`.toLowerCase();
     const matchesSearch = searchable.includes(normalizedQuery);
@@ -2548,6 +2627,22 @@ document.addEventListener("click", (event) => {
     closeRecipeScaleSheet();
     return;
   }
+  if (action === "open-filter-sheet") {
+    const button = event.target.closest("[data-filter-key]");
+    if (!button) return;
+    openFilterSheet(button.dataset.filterKey);
+    return;
+  }
+  if (action === "close-filter-sheet") {
+    closeFilterSheet();
+    return;
+  }
+  if (action === "set-filter") {
+    const button = event.target.closest("[data-filter-option-value]");
+    if (!button) return;
+    setFilterValue(button.dataset.filterKey, button.dataset.filterOptionValue);
+    return;
+  }
   if (action === "set-recipe-scale") {
     const button = event.target.closest("[data-batch-size]");
     if (!button) return;
@@ -2595,10 +2690,7 @@ headerBackButton.addEventListener("click", () => {
 batchSearch.addEventListener("input", (event) => {
   renderCompletedBatches();
 });
-scoreFilter.addEventListener("change", renderCompletedBatches);
-dateFilter.addEventListener("change", renderCompletedBatches);
 recipeSearch.addEventListener("input", renderRecipes);
-recipeStyleFilter.addEventListener("change", renderRecipes);
 
 navButtons.forEach((button) => {
   button.addEventListener("click", () => {
