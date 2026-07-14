@@ -1,0 +1,9 @@
+{
+  "name": "Brew Buddy",
+  "short_name": "Brew Buddy",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f3f7",
+  "theme_color": "#fbca22",
+  "description": "Track homebrew recipes, batches, inventory, and brew-day timers."
+}
