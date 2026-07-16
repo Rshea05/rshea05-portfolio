@@ -959,6 +959,66 @@ q,
   font-size: 0.95rem;
 }
 
+.ai-workflow-page {
+  width: min(1120px, 100%);
+}
+
+.workflow-map {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.workflow-map span {
+  position: relative;
+  display: grid;
+  min-height: 118px;
+  place-items: center;
+  padding: 18px 12px;
+  background: var(--panel);
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.workflow-map span:nth-child(3),
+.workflow-map span:nth-child(7),
+.ai-delivery-ribbon span:nth-child(5) {
+  background: var(--soft);
+  color: var(--accent);
+}
+
+.decision-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.decision-list span {
+  min-height: 88px;
+  padding: 18px;
+  background: var(--panel);
+  color: var(--ink);
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+.ai-principles article:nth-child(2) {
+  background: var(--soft);
+}
+
 .artifact-section {
   gap: clamp(22px, 4vw, 34px);
 }
@@ -1295,6 +1355,8 @@ q,
   .system-principles,
   .toolchain-grid,
   .metric-strip,
+  .workflow-map,
+  .decision-list,
   .governance-map {
     grid-template-columns: 1fr;
   }
