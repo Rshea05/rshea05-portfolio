@@ -3,5 +3,5 @@
 
 [[redirects]]
   from = "/work-portfolio"
-  to = "/"
+  to = "/projects/"
   status = 301
