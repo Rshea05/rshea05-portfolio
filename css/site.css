@@ -1015,8 +1015,55 @@ q,
   line-height: 1.25;
 }
 
+.knowledge-list {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .ai-principles article:nth-child(2) {
   background: var(--soft);
+}
+
+.ai-principles {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.framework-loop {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+}
+
+.framework-loop article {
+  min-height: 220px;
+  padding: clamp(18px, 2.5vw, 24px);
+  background: var(--panel);
+}
+
+.framework-loop article:nth-child(2),
+.framework-loop article:nth-child(6) {
+  background: var(--soft);
+}
+
+.framework-loop span {
+  display: block;
+  margin-bottom: 22px;
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.framework-loop h3 {
+  margin-top: 0;
+}
+
+.framework-loop p {
+  margin-top: 10px;
+  font-size: 0.98rem;
 }
 
 .artifact-section {
@@ -1357,6 +1404,7 @@ q,
   .metric-strip,
   .workflow-map,
   .decision-list,
+  .framework-loop,
   .governance-map {
     grid-template-columns: 1fr;
   }
