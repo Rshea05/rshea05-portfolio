@@ -629,17 +629,6 @@ q,
   background: var(--line);
 }
 
-.project-snapshot.outcome-snapshot {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: calc(clamp(38px, 7vw, 76px) * -0.55);
-}
-
-.project-snapshot.outcome-snapshot strong {
-  color: var(--accent);
-  font-size: clamp(2.4rem, 4.8vw, 4.3rem);
-  line-height: 0.95;
-}
-
 .project-snapshot article,
 .insight-grid article {
   padding: clamp(20px, 3vw, 28px);
@@ -1462,10 +1451,6 @@ q,
     display: none;
   }
 
-  .project-snapshot.outcome-snapshot {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .brew-screen-grid,
   .source-artifact-grid,
   .agronomy-artifacts,
@@ -1514,10 +1499,6 @@ q,
 
   .nav {
     justify-content: flex-start;
-  }
-
-  .project-snapshot.outcome-snapshot {
-    grid-template-columns: 1fr;
   }
 
   .case-summary-list.outcome-metrics {
