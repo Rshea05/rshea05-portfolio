@@ -631,6 +631,7 @@ q,
 
 .project-snapshot.outcome-snapshot {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: calc(clamp(38px, 7vw, 76px) * -0.55);
 }
 
 .project-snapshot.outcome-snapshot strong {
